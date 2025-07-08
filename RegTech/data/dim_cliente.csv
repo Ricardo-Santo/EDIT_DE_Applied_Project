@@ -1,0 +1,301 @@
+id_cliente,id_empresa,nome,email,cargo
+153,1,Srta. Laís da Luz,julia48@uol.com.br,CEO
+239,3,Sra. Maria da Costa,ramosana-beatriz@uol.com.br,Coordenador de Operações
+219,3,Stella Monteiro,pereiraantonio@yahoo.com.br,Diretor de Compliance
+146,3,Murilo Silva,helena41@mendes.com,Coordenador de Operações
+176,4,Evelyn Monteiro,felipe68@barbosa.br,Gerente de TI
+156,4,Mariane da Mota,moreiralevi@gmail.com,Gerente de TI
+148,4,Srta. Maria Cecília Barbosa,goncalvesgabriel@bol.com.br,CTO
+137,4,Luiz Miguel Vieira,sophiearaujo@nascimento.net,CTO
+5,4,Emanuel Vieira,viananatalia@castro.com,CTO
+211,5,João Gabriel da Cruz,pfreitas@bol.com.br,Gerente de TI
+145,5,Felipe Correia,maysa05@da.org,Gerente de TI
+236,6,Alícia Cardoso,anavieira@cunha.com,Analista Financeiro
+139,7,Maria Eduarda Costela,acampos@hotmail.com,Gerente de TI
+12,7,Davi Lucca Gomes,wjesus@gmail.com,CTO
+291,8,Gabriela Rodrigues,nunesmaria-sophia@bol.com.br,Coordenador de Operações
+191,8,Lorenzo Rezende,lucas-gabrieldias@bol.com.br,Diretor de Compliance
+129,8,Dr. Enrico Ferreira,anthony44@hotmail.com,Especialista Regulatória
+173,9,Pedro Henrique da Rosa,mporto@costa.com,Especialista Regulatória
+22,9,Anthony Nogueira,kaiquenovaes@ramos.org,Diretor de Compliance
+289,10,Yago Pires,efernandes@barros.net,Gerente de TI
+214,10,Isis Caldeira,sabrinamoura@bol.com.br,Diretor de Compliance
+268,11,Augusto Cardoso,saraujo@da.br,Coordenador de Operações
+147,11,Dra. Maria da Mata,yasmincaldeira@lopes.br,Analista Financeiro
+10,12,Maria Luiza Costa,ana-carolinapereira@rocha.br,Diretor de Compliance
+269,13,Srta. Mariana da Paz,marcos-viniciusgoncalves@barbosa.br,Coordenador de Operações
+17,13,Daniel Fogaça,ian04@gmail.com,CTO
+155,14,Nicolas Alves,juliana03@bol.com.br,Analista Financeiro
+246,15,Maria Julia Castro,ryanalmeida@uol.com.br,Gerente de TI
+49,15,Dr. Eduardo Moraes,ida-paz@da.com,Gerente de TI
+38,15,Maria Clara Dias,silvabrenda@barros.br,CTO
+32,15,Fernanda Rodrigues,vitorcavalcanti@gmail.com,CEO
+1,15,Caroline da Mota,araujomilena@hotmail.com,Analista Financeiro
+177,16,Gustavo Henrique Correia,acastro@hotmail.com,Diretor de Compliance
+229,17,Thomas Santos,thales56@yahoo.com.br,Analista Financeiro
+107,17,Luiz Miguel da Cruz,nda-conceicao@souza.com,Analista Financeiro
+298,18,Clara Almeida,nogueiraesther@yahoo.com.br,Diretor de Compliance
+275,18,Srta. Sophie Ramos,raquel27@bol.com.br,Diretor de Compliance
+81,18,Sra. Rebeca Ramos,vitor-hugodas-neves@gmail.com,Gerente de TI
+251,19,Emanuelly Viana,thiago82@porto.com,Gerente de TI
+171,19,Sr. Luigi Sales,da-rosacarolina@nascimento.net,Diretor de Compliance
+122,19,Dr. Davi Luiz da Mota,nathancorreia@oliveira.br,Especialista Regulatória
+264,20,Luiz Gustavo Carvalho,nicolasramos@ig.com.br,Coordenador de Operações
+250,20,Raul Viana,vpinto@yahoo.com.br,CEO
+183,21,Gustavo Henrique da Luz,imoraes@vieira.com,Especialista Regulatória
+64,21,Pietra Ferreira,ycaldeira@costa.com,Coordenador de Operações
+248,22,Bárbara Peixoto,mariana39@da.com,Coordenador de Operações
+170,22,Milena Cunha,heitorramos@bol.com.br,Coordenador de Operações
+127,22,Heloísa Silva,oribeiro@rezende.br,Analista Financeiro
+59,22,Srta. Maria Cecília Monteiro,catarinanunes@teixeira.com,Diretor de Compliance
+133,23,Esther Melo,luiz-gustavo18@bol.com.br,Especialista Regulatória
+119,23,Pedro Fernandes,diasmurilo@monteiro.br,CEO
+43,23,Srta. Mirella Moraes,teixeiraenrico@da.com,Analista Financeiro
+9,23,Paulo Moreira,correiacaua@goncalves.br,Gerente de TI
+106,24,Calebe das Neves,sophie77@hotmail.com,Gerente de TI
+31,24,Anthony Fernandes,costelaenzo-gabriel@carvalho.net,CEO
+276,25,Sarah Peixoto,cavalcantijoao-vitor@da.br,Diretor de Compliance
+271,27,Maria Eduarda Nascimento,ramoscarolina@teixeira.br,Especialista Regulatória
+237,27,Rebeca da Cunha,laura46@silveira.net,CEO
+222,27,Alice Sales,rafaelrodrigues@uol.com.br,Gerente de TI
+102,27,Arthur Almeida,vianabruna@moreira.com,Gerente de TI
+207,28,Bruno Jesus,miguel42@cardoso.com,Diretor de Compliance
+130,30,Dr. Igor Farias,araujothomas@yahoo.com.br,Coordenador de Operações
+79,30,Sofia Fernandes,nicolegoncalves@carvalho.com,Analista Financeiro
+120,31,Luiz Gustavo Carvalho,nogueiraeduarda@pinto.br,Especialista Regulatória
+69,31,Diego Gonçalves,fsouza@yahoo.com.br,Diretor de Compliance
+3,31,Marcela Aragão,rebecada-mota@da.net,Gerente de TI
+78,32,Sra. Manuela Ramos,lorenzo85@ig.com.br,CEO
+75,32,Noah Ramos,davi74@uol.com.br,CEO
+51,32,Dr. Pedro Lucas Fernandes,henrique42@ig.com.br,Coordenador de Operações
+48,32,Sra. Marcela Costa,lorenzoda-conceicao@martins.br,Coordenador de Operações
+288,33,Sra. Stephany da Rocha,nnunes@ig.com.br,Analista Financeiro
+249,33,Vitor Hugo Cavalcanti,novaeslevi@rocha.org,CEO
+164,33,Davi das Neves,caiosilveira@gmail.com,Gerente de TI
+143,33,Sophie Gonçalves,carvalhomarcela@hotmail.com,Analista Financeiro
+24,33,Luna Freitas,davi-lucca97@gmail.com,CEO
+185,34,João Miguel Jesus,luiz-migueljesus@barbosa.com,CTO
+294,35,Emanuelly da Luz,sophiecostela@uol.com.br,Analista Financeiro
+213,35,Nicole Pires,inovaes@gmail.com,Gerente de TI
+201,35,Eduardo Correia,da-luzlevi@uol.com.br,Analista Financeiro
+116,35,Igor Castro,ribeirocalebe@yahoo.com.br,CEO
+199,36,Levi da Conceição,otaviosouza@monteiro.net,Coordenador de Operações
+150,36,Sr. Levi Costela,vicentecardoso@nogueira.net,Especialista Regulatória
+14,36,Dr. Thomas Cardoso,maria-juliada-mota@hotmail.com,Especialista Regulatória
+243,37,Larissa Martins,moraesmaria-fernanda@gmail.com,Analista Financeiro
+224,37,Lucas Gabriel Monteiro,limaluiza@fogaca.br,Analista Financeiro
+91,37,Cauê Viana,zda-mota@yahoo.com.br,Gerente de TI
+232,38,Ian Pereira,kalves@yahoo.com.br,Especialista Regulatória
+109,38,Francisco Nascimento,esther52@yahoo.com.br,Gerente de TI
+290,40,Dr. João da Cunha,giovanna23@ig.com.br,CEO
+272,40,João Miguel Araújo,wsouza@bol.com.br,Diretor de Compliance
+90,40,Pedro Lucas da Mota,noah67@da.com,CEO
+277,41,Heloísa da Cunha,maria68@hotmail.com,Diretor de Compliance
+2,41,Maria Cecília Costa,rjesus@ig.com.br,CEO
+220,42,Maria Sophia Fernandes,ana-juliacastro@uol.com.br,CEO
+149,42,Sofia da Costa,cavalcantidanilo@lopes.br,CEO
+87,42,Ana Luiza Caldeira,emanuelmendes@ig.com.br,Diretor de Compliance
+196,44,Bruno Cunha,kcostela@uol.com.br,Especialista Regulatória
+180,44,João Gabriel Pinto,nascimentomaria-alice@gmail.com,CEO
+158,44,Lívia Teixeira,laragao@yahoo.com.br,Analista Financeiro
+282,46,Sr. João Vitor Lima,alexandre53@farias.com,Analista Financeiro
+212,46,Dr. Pedro Lucas Silveira,thales38@silveira.com,CEO
+151,46,João Pedro Cardoso,piresmurilo@ig.com.br,Especialista Regulatória
+259,47,Isis Teixeira,laura17@nascimento.br,Diretor de Compliance
+228,48,Arthur Azevedo,zpinto@hotmail.com,CTO
+63,48,Dr. Vitor Hugo Almeida,miguelrezende@teixeira.br,Analista Financeiro
+34,48,Evelyn Duarte,silveirapaulo@nogueira.com,Coordenador de Operações
+99,49,Marina da Cunha,qnascimento@nogueira.br,Gerente de TI
+45,50,Gabriela Ferreira,ana-beatrizcavalcanti@gmail.com,Analista Financeiro
+256,51,Stella Barros,joao-lucas08@melo.br,Diretor de Compliance
+11,51,Dra. Gabriela Caldeira,avieira@monteiro.br,Gerente de TI
+284,52,Agatha Novaes,da-matasofia@ig.com.br,Analista Financeiro
+189,53,Ana Carolina Campos,nfreitas@da.br,Coordenador de Operações
+169,53,Bárbara Sales,ian21@sales.br,Diretor de Compliance
+68,53,Letícia Costa,freitasjoao-lucas@bol.com.br,Coordenador de Operações
+98,54,Enzo Gabriel Nunes,kevinrocha@souza.com,Analista Financeiro
+27,54,Laís Jesus,yuri59@uol.com.br,Gerente de TI
+279,56,Maria Clara Oliveira,toliveira@silveira.br,CTO
+247,56,Cauã Novaes,marianabarros@nogueira.com,CEO
+198,56,Davi Fogaça,dmoraes@ig.com.br,Coordenador de Operações
+226,57,Maitê Moreira,almeidamaite@dias.br,CTO
+216,58,Leonardo Moura,evelynalmeida@rezende.org,CTO
+208,58,João Miguel Cunha,luna84@silva.com,CTO
+187,58,Emanuelly Cunha,luna73@hotmail.com,Analista Financeiro
+62,59,Ana Viana,thiagoazevedo@hotmail.com,Gerente de TI
+61,59,Diogo Nogueira,ida-cunha@pereira.br,CTO
+56,59,Rodrigo Martins,martinsdaniel@vieira.br,CEO
+8,59,Larissa Gomes,qcardoso@uol.com.br,Diretor de Compliance
+278,60,Sra. Sabrina da Cunha,gabrielafreitas@hotmail.com,Diretor de Compliance
+209,60,Elisa da Conceição,eduarda24@da.org,Especialista Regulatória
+125,60,Gabrielly Ribeiro,maria-eduarda17@almeida.com,Analista Financeiro
+286,61,João Pedro da Costa,lfreitas@gmail.com,CEO
+188,62,Henrique da Costa,ana-julia00@yahoo.com.br,Especialista Regulatória
+52,62,Alice Fernandes,pirescaue@araujo.br,Diretor de Compliance
+258,63,Mariana Porto,lorenzoaraujo@gmail.com,Especialista Regulatória
+141,63,Letícia Teixeira,yagoaraujo@ig.com.br,Diretor de Compliance
+115,63,Dr. Joaquim Carvalho,knogueira@fernandes.com,CEO
+295,64,Vinicius Rodrigues,ulopes@uol.com.br,CTO
+225,64,Dr. Lucas Gabriel Campos,duartejoao@ig.com.br,Coordenador de Operações
+29,65,Luna da Mota,xrodrigues@uol.com.br,CEO
+162,66,Sr. Nicolas Monteiro,knunes@gmail.com,CEO
+154,66,Diego da Luz,marina48@yahoo.com.br,CEO
+85,66,Igor Porto,rochaarthur@da.net,Gerente de TI
+66,67,Rafaela Castro,dporto@uol.com.br,Coordenador de Operações
+296,68,Sophie Lopes,da-motaanthony@gmail.com,Coordenador de Operações
+175,68,Rafael Araújo,lorena20@yahoo.com.br,Especialista Regulatória
+157,68,Cauê Moura,bpires@da.br,Especialista Regulatória
+93,68,Vitor Hugo Sales,osales@bol.com.br,Coordenador de Operações
+84,68,Davi Lucca Freitas,valmeida@bol.com.br,CEO
+103,69,Alícia Cardoso,correiapietro@pereira.br,Analista Financeiro
+30,69,Sra. Ana Luiza Cavalcanti,alice57@hotmail.com,Coordenador de Operações
+292,70,Emanuel da Cruz,isabellyda-conceicao@yahoo.com.br,Especialista Regulatória
+254,70,Sra. Isadora Ramos,cunhamelissa@gmail.com,Analista Financeiro
+215,70,Antônio Nunes,maria-vitoriabarbosa@gmail.com,Coordenador de Operações
+186,70,João Felipe da Mata,cardosojulia@da.net,Diretor de Compliance
+135,70,João Freitas,alvesmarina@yahoo.com.br,Gerente de TI
+97,70,Srta. Sofia da Cruz,caroline68@da.br,Coordenador de Operações
+260,71,Ana Clara Oliveira,freitasjoao-gabriel@gmail.com,CEO
+72,71,Lucca Freitas,diogocarvalho@hotmail.com,Gerente de TI
+255,72,João Vitor Jesus,salesrafael@da.org,CTO
+182,72,Davi Luiz Azevedo,brocha@goncalves.br,Diretor de Compliance
+163,72,Arthur Lima,nunesbreno@ig.com.br,Gerente de TI
+73,72,Thales Fogaça,cribeiro@bol.com.br,Diretor de Compliance
+281,73,Maitê Fogaça,moreiramaria-julia@oliveira.br,CEO
+263,73,Isaac Pereira,ramoscarolina@da.net,CEO
+4,73,Marcela Souza,ananascimento@silveira.org,Coordenador de Operações
+267,74,Maria Luiza da Mata,luigi24@cardoso.com,Diretor de Compliance
+261,74,Dr. João Viana,ana-carolinajesus@uol.com.br,Analista Financeiro
+242,74,Thiago Rocha,oliveiraana@ig.com.br,Gerente de TI
+193,75,Dr. Diego Melo,otaviogomes@hotmail.com,CEO
+74,75,Bárbara da Mata,asilveira@uol.com.br,CEO
+210,76,Ana Carolina da Conceição,nathan19@uol.com.br,Coordenador de Operações
+197,76,Lívia Vieira,teixeirabenicio@monteiro.br,Analista Financeiro
+285,77,Otávio Viana,lucas48@jesus.com,Coordenador de Operações
+221,77,Daniela Melo,diasdanilo@fogaca.com,Analista Financeiro
+205,77,Fernanda Costela,diasthales@bol.com.br,CEO
+136,77,Lucas Barbosa,cardosogabrielly@hotmail.com,CTO
+46,77,Sra. Agatha Nogueira,tpereira@yahoo.com.br,Gerente de TI
+126,78,Srta. Lara Nunes,castroandre@da.org,Gerente de TI
+37,78,Mariane da Rocha,bruno95@barros.br,Coordenador de Operações
+36,78,Emilly Cardoso,kfreitas@silva.com,CEO
+6,78,Bruno Monteiro,ana68@azevedo.com,CTO
+184,79,Raquel Ramos,ucampos@yahoo.com.br,Especialista Regulatória
+117,79,Amanda Castro,alexia45@da.net,Coordenador de Operações
+94,79,Natália Pinto,kcardoso@hotmail.com,Gerente de TI
+273,80,Gabrielly Caldeira,costelalorenzo@bol.com.br,CEO
+118,80,Agatha Moraes,kaique01@ig.com.br,Coordenador de Operações
+70,80,Luiz Gustavo Gomes,barrosrafaela@bol.com.br,Analista Financeiro
+144,82,Davi Silveira,vitorpeixoto@gomes.com,CEO
+124,82,Sra. Luana Rocha,hsantos@pinto.org,CTO
+202,83,Gabriela Cardoso,vitoria31@rocha.org,CEO
+152,84,Mariana Porto,alvesjoao-guilherme@ramos.br,Especialista Regulatória
+134,85,Milena Oliveira,mariane88@caldeira.br,Diretor de Compliance
+100,85,Srta. Marcela Nunes,cdias@barbosa.com,Especialista Regulatória
+92,85,Fernanda Nascimento,vieiraheitor@ig.com.br,Especialista Regulatória
+167,86,Gustavo Henrique Silva,stephanycampos@bol.com.br,Especialista Regulatória
+206,88,Vinicius Melo,kaiquearagao@da.net,Diretor de Compliance
+299,89,Caroline da Rocha,wda-cruz@lima.br,Especialista Regulatória
+60,89,Pedro Miguel da Cruz,mouraolivia@ig.com.br,Especialista Regulatória
+108,91,Sophie Porto,nataliada-rosa@hotmail.com,CEO
+54,91,Fernando Cardoso,fgoncalves@da.com,Diretor de Compliance
+86,92,Theo da Conceição,emanuelsantos@hotmail.com,Diretor de Compliance
+58,92,Sr. Anthony da Cunha,eda-rosa@da.net,Gerente de TI
+23,92,Ana Luiza da Mata,giovannagomes@yahoo.com.br,CEO
+128,93,Dr. Luiz Miguel Fogaça,antoniomelo@yahoo.com.br,Especialista Regulatória
+283,94,Enzo Gabriel Dias,sofiabarbosa@melo.br,Coordenador de Operações
+15,94,Rafael Aragão,danilo85@ramos.com,CEO
+253,96,Benício Viana,zcunha@yahoo.com.br,Diretor de Compliance
+245,96,Dra. Gabrielly Vieira,rcardoso@yahoo.com.br,Coordenador de Operações
+204,96,Samuel Monteiro,kdias@gmail.com,Gerente de TI
+131,96,Gustavo da Luz,limaisabelly@gmail.com,Diretor de Compliance
+65,96,Leonardo Pinto,peixotopedro-miguel@gmail.com,Especialista Regulatória
+179,97,Maria Fernanda Peixoto,mouralucca@moraes.org,Gerente de TI
+96,97,Rafael Viana,maria-vitoriasouza@hotmail.com,Especialista Regulatória
+266,98,Thiago Porto,ufreitas@bol.com.br,Gerente de TI
+35,99,Davi Barbosa,lucascosta@sales.com,Gerente de TI
+235,100,Sr. Vinicius Viana,isabellyporto@bol.com.br,Analista Financeiro
+223,100,Rafael Novaes,eteixeira@da.com,Diretor de Compliance
+217,100,Sabrina Araújo,joao-felipe52@ig.com.br,Analista Financeiro
+174,100,Juan Nunes,maria-luizanunes@nunes.br,CEO
+101,100,Pietro Ferreira,ana-carolina45@ig.com.br,Especialista Regulatória
+47,100,Dra. Bárbara da Rosa,calebe10@gmail.com,Coordenador de Operações
+168,101,Pietra da Mota,alexia30@castro.br,Coordenador de Operações
+112,101,Emanuel Monteiro,ovieira@almeida.br,Gerente de TI
+257,102,Theo Porto,joao-gabriel60@da.br,Especialista Regulatória
+195,102,Cauê Freitas,fariasmarcelo@yahoo.com.br,Analista Financeiro
+172,102,Joana Nascimento,carlos-eduardo30@ig.com.br,CEO
+7,106,Antônio Azevedo,vieiraalexia@hotmail.com,CTO
+159,107,Larissa Moraes,mariafreitas@ig.com.br,CTO
+297,108,Maria Fernanda Oliveira,rezendetheo@ig.com.br,Gerente de TI
+287,108,Thomas Martins,costelabryan@teixeira.br,CTO
+82,108,Ana Laura Ferreira,emilly26@almeida.com,Analista Financeiro
+19,109,Luigi Almeida,joao-felipe25@hotmail.com,Diretor de Compliance
+231,110,Amanda Rocha,xmoreira@bol.com.br,Especialista Regulatória
+190,110,Dr. Miguel da Mota,pedro97@farias.com,Diretor de Compliance
+161,111,Nathan Fernandes,nicolas42@fernandes.com,Especialista Regulatória
+76,111,Pedro Moraes,cardosohenrique@bol.com.br,CEO
+41,111,Emilly Moura,diasanthony@rezende.br,CTO
+178,112,Caio Campos,lbarros@hotmail.com,Especialista Regulatória
+83,113,Ana Lívia Duarte,joao-guilherme85@farias.com,Analista Financeiro
+13,113,Juan Nunes,almeidasophie@santos.br,CTO
+203,114,Dr. Carlos Eduardo Lima,xbarros@hotmail.com,CEO
+194,114,Isis Carvalho,theo05@bol.com.br,CEO
+123,115,Murilo da Cruz,caio97@uol.com.br,Especialista Regulatória
+111,115,Fernando Melo,pramos@jesus.com,Coordenador de Operações
+80,115,Maria Fernanda Fogaça,joao-lucasbarros@ig.com.br,CEO
+77,115,João Pedro Ferreira,talves@ferreira.br,Diretor de Compliance
+293,116,Pietra Monteiro,cavalcantienrico@ig.com.br,Gerente de TI
+140,116,Sophia Caldeira,kaique42@uol.com.br,Gerente de TI
+40,117,Heloísa Ribeiro,marianecosta@ig.com.br,Diretor de Compliance
+113,118,Ana Clara Pereira,tporto@porto.br,Especialista Regulatória
+110,118,Ana Beatriz Costela,laracorreia@silveira.br,Analista Financeiro
+44,118,Otávio Mendes,agathacampos@lima.br,Especialista Regulatória
+26,118,João Pedro Viana,isisda-paz@gmail.com,CEO
+300,119,Dr. Davi Lucca Viana,nicolemonteiro@novaes.org,Gerente de TI
+262,119,Gustavo Pinto,thomaspinto@araujo.br,Analista Financeiro
+218,120,Ryan da Luz,tvieira@ig.com.br,CTO
+33,120,Isabel Cardoso,alvesbenicio@gmail.com,CTO
+21,121,Erick Farias,joao-lucas85@das.com,Especialista Regulatória
+67,122,Igor Cardoso,sophieda-paz@uol.com.br,Coordenador de Operações
+230,123,João Vitor Monteiro,hmendes@da.br,Gerente de TI
+142,123,Clara Vieira,felipeda-mata@viana.org,Especialista Regulatória
+274,124,Sabrina Oliveira,azevedomatheus@yahoo.com.br,Diretor de Compliance
+114,124,Sr. Samuel Mendes,enrico01@caldeira.net,Analista Financeiro
+42,124,João Lucas da Rosa,yurida-mota@uol.com.br,Especialista Regulatória
+244,125,Isis da Mota,da-matasofia@goncalves.net,CEO
+18,125,Srta. Manuela Jesus,ida-costa@hotmail.com,CTO
+280,126,Ana Clara Ramos,benjaminrezende@silveira.net,Gerente de TI
+165,126,Dr. Davi da Costa,olivia30@ig.com.br,CTO
+55,126,Davi Lucca Rocha,thomasgomes@gmail.com,Gerente de TI
+252,127,Ana Beatriz Novaes,yrodrigues@nogueira.com,CEO
+234,127,Pedro Miguel Lima,qcaldeira@da.br,Analista Financeiro
+50,127,João Miguel da Luz,isis88@uol.com.br,Gerente de TI
+200,128,Yuri Gomes,augustocampos@yahoo.com.br,CTO
+166,128,Thomas da Rosa,joaquim02@souza.com,Gerente de TI
+20,128,Luiza Almeida,da-conceicaogustavo@da.org,Gerente de TI
+240,129,João Pedro Barbosa,calebe81@bol.com.br,CEO
+192,130,Murilo Caldeira,lucas-gabriel67@uol.com.br,CEO
+138,130,Esther da Conceição,milena11@ig.com.br,Coordenador de Operações
+238,132,Agatha Silva,davi-lucas76@ig.com.br,Coordenador de Operações
+181,132,Stella Souza,nicolasgomes@hotmail.com,Diretor de Compliance
+121,132,Yuri Melo,duartemaria-cecilia@gmail.com,Diretor de Compliance
+227,134,Emilly da Cruz,ana-liviacastro@da.com,CEO
+270,135,Sra. Beatriz Lopes,maria-aliceribeiro@oliveira.br,Coordenador de Operações
+95,135,Igor Alves,lopesbernardo@yahoo.com.br,Diretor de Compliance
+39,135,Henrique Alves,joao-miguel60@gmail.com,Diretor de Compliance
+265,136,João Lucas Ribeiro,peixotopedro@uol.com.br,CEO
+132,136,Marcela Melo,da-cunhamaria-vitoria@novaes.com,Analista Financeiro
+104,136,Nina Silveira,yduarte@gmail.com,Diretor de Compliance
+57,136,Bernardo Cardoso,catarina33@araujo.org,CTO
+241,138,Dr. Yago Moreira,mmartins@cavalcanti.com,Diretor de Compliance
+89,138,Rafael Costela,laurada-mata@da.org,Analista Financeiro
+28,138,Breno Moreira,kfreitas@barbosa.org,CTO
+233,139,Gabrielly Pereira,qvieira@gmail.com,Analista Financeiro
+160,139,Davi Luiz da Conceição,maria-eduardaporto@fernandes.org,Analista Financeiro
+105,140,Agatha Vieira,duarteluiz-henrique@teixeira.com,Analista Financeiro
+88,140,Rebeca Correia,cardosootavio@uol.com.br,CEO
+53,140,Luiz Miguel Rezende,afarias@alves.br,CTO
+71,141,Lucas Cardoso,pereirafernanda@farias.org,Diretor de Compliance
+25,142,Sr. Davi Lopes,otavioaraujo@nascimento.com,Analista Financeiro
+16,142,Gustavo Nogueira,vitor-hugopinto@hotmail.com,Analista Financeiro

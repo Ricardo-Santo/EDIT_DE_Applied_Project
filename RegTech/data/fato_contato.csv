@@ -1,0 +1,501 @@
+id_contato,id_cliente,id_empresa,data_contato,etapa_funil,canal,responsavel
+76,300,119,2025-05-23,Reunião Agendada,Evento,Gabriela Souza
+180,300,119,2025-04-05,Fechado,Telefone,Raul Correia
+198,300,119,2025-03-28,Reunião Agendada,Indicação,Sophia da Luz
+273,300,119,2025-06-07,Contato Inicial,LinkedIn,Manuela da Rosa
+419,297,108,2025-06-24,Contato Inicial,Evento,Ana Lívia Oliveira
+227,296,68,2025-04-24,Contato Inicial,Telefone,Benício Pires
+466,296,68,2025-04-24,Fechado,Indicação,Dr. Renan Correia
+330,295,64,2025-05-26,Contato Inicial,Evento,Emilly Moreira
+224,293,116,2025-04-11,Contato Inicial,Indicação,Larissa Moreira
+55,292,70,2025-06-19,Contato Inicial,E-mail,Sra. Rafaela Cardoso
+153,292,70,2025-04-09,Contato Inicial,Telefone,Vitor Gabriel Santos
+189,292,70,2025-06-18,Perdido,E-mail,Lavínia da Mata
+38,291,8,2025-05-10,Perdido,Indicação,Srta. Maria Clara da Rocha
+256,291,8,2025-06-16,Proposta Enviada,LinkedIn,Luiz Felipe da Cruz
+32,290,40,2025-05-10,Perdido,Evento,Gustavo Alves
+121,290,40,2025-06-24,Perdido,E-mail,Carolina Sales
+304,290,40,2025-06-18,Perdido,Evento,Evelyn Correia
+480,289,10,2025-04-11,Reunião Agendada,Telefone,Maitê Santos
+280,287,108,2025-04-16,Perdido,LinkedIn,Eloah Pires
+133,286,61,2025-04-09,Fechado,Indicação,Bárbara da Cruz
+140,286,61,2025-05-03,Negociação,Evento,Julia Lopes
+488,286,61,2025-04-26,Reunião Agendada,Indicação,Leonardo Melo
+14,285,77,2025-06-25,Reunião Agendada,LinkedIn,Theo Caldeira
+56,283,94,2025-05-17,Reunião Agendada,Evento,Milena Farias
+203,283,94,2025-05-13,Negociação,LinkedIn,Maria Alice Cardoso
+249,283,94,2025-03-31,Proposta Enviada,Indicação,Luiz Fernando da Costa
+499,283,94,2025-05-25,Perdido,LinkedIn,Davi Costela
+401,282,46,2025-05-31,Fechado,E-mail,Yuri Alves
+108,281,73,2025-04-23,Contato Inicial,LinkedIn,Felipe Cardoso
+288,281,73,2025-04-17,Contato Inicial,Telefone,Luigi Cavalcanti
+50,278,60,2025-06-11,Fechado,Indicação,Enzo Gabriel Moraes
+107,278,60,2025-04-03,Negociação,Evento,Rafael Barbosa
+214,277,41,2025-06-01,Reunião Agendada,Indicação,Nina Oliveira
+59,276,25,2025-03-30,Perdido,Evento,Samuel Costela
+63,274,124,2025-05-12,Reunião Agendada,Evento,Igor Pinto
+86,273,80,2025-04-01,Proposta Enviada,LinkedIn,Milena Nunes
+89,273,80,2025-04-20,Proposta Enviada,LinkedIn,Dr. Henrique Barbosa
+96,273,80,2025-05-13,Reunião Agendada,Evento,João Lucas da Cunha
+60,271,27,2025-04-21,Proposta Enviada,LinkedIn,Giovanna Novaes
+68,271,27,2025-06-06,Proposta Enviada,Indicação,Raul Melo
+105,271,27,2025-05-23,Reunião Agendada,Telefone,Laís Pereira
+120,270,135,2025-04-04,Proposta Enviada,LinkedIn,Gabrielly Teixeira
+154,270,135,2025-05-22,Negociação,Evento,Laura Peixoto
+268,270,135,2025-05-06,Contato Inicial,LinkedIn,Sra. Ana Beatriz Melo
+293,270,135,2025-04-27,Proposta Enviada,Indicação,Yuri Lopes
+412,270,135,2025-04-18,Proposta Enviada,Indicação,Alexia Alves
+363,269,13,2025-05-17,Fechado,Telefone,Isabelly Aragão
+321,268,11,2025-05-19,Perdido,Evento,João Miguel da Paz
+334,268,11,2025-06-16,Proposta Enviada,Indicação,Gustavo Nogueira
+384,268,11,2025-06-01,Negociação,Indicação,Bianca Fogaça
+444,268,11,2025-05-18,Fechado,Evento,Luiz Henrique Fogaça
+88,267,74,2025-05-28,Fechado,Indicação,Enrico Cardoso
+149,266,98,2025-05-29,Perdido,Indicação,João Pedro Caldeira
+272,265,136,2025-04-30,Negociação,E-mail,Helena Pereira
+1,264,20,2025-05-04,Reunião Agendada,Indicação,Beatriz Farias
+39,263,73,2025-06-16,Contato Inicial,E-mail,Joaquim da Conceição
+216,263,73,2025-04-20,Fechado,E-mail,Eduardo Costela
+279,263,73,2025-05-07,Contato Inicial,E-mail,Dra. Cecília Cardoso
+368,263,73,2025-06-01,Contato Inicial,Evento,Marcela Dias
+452,263,73,2025-04-04,Proposta Enviada,LinkedIn,Stephany Cavalcanti
+400,262,119,2025-06-06,Perdido,E-mail,Thomas Peixoto
+442,260,71,2025-06-08,Proposta Enviada,LinkedIn,Maria Cecília Teixeira
+294,259,47,2025-06-12,Reunião Agendada,Evento,Lara Nascimento
+477,259,47,2025-05-30,Negociação,Telefone,Stephany Cardoso
+415,258,63,2025-05-07,Fechado,Evento,Amanda Pires
+417,258,63,2025-04-19,Negociação,Evento,Davi Lucca Vieira
+73,257,102,2025-06-13,Reunião Agendada,Evento,Miguel Silva
+271,256,51,2025-06-20,Negociação,Indicação,Dra. Julia da Cruz
+101,255,72,2025-05-31,Proposta Enviada,LinkedIn,Emilly da Costa
+195,255,72,2025-05-02,Reunião Agendada,LinkedIn,Rafael Farias
+383,255,72,2025-04-13,Reunião Agendada,Telefone,Dra. Eduarda Duarte
+422,255,72,2025-06-20,Proposta Enviada,Evento,Cauã Duarte
+81,254,70,2025-04-05,Perdido,LinkedIn,Isabella Rezende
+119,254,70,2025-06-16,Proposta Enviada,Telefone,Luiza Vieira
+278,253,96,2025-06-04,Perdido,Telefone,Júlia Farias
+335,253,96,2025-03-29,Perdido,Telefone,Eduardo Campos
+65,252,127,2025-06-21,Contato Inicial,Evento,Luigi Rocha
+192,252,127,2025-05-14,Fechado,Indicação,Calebe Martins
+482,252,127,2025-05-12,Reunião Agendada,E-mail,Arthur Aragão
+2,251,19,2025-05-09,Contato Inicial,Indicação,Yasmin Mendes
+382,250,20,2025-04-21,Contato Inicial,E-mail,Dr. Luiz Henrique Novaes
+116,249,33,2025-05-04,Negociação,Indicação,Maria Fernanda Caldeira
+423,249,33,2025-04-19,Perdido,Evento,Alana Souza
+6,248,22,2025-05-10,Negociação,LinkedIn,Luigi Melo
+465,248,22,2025-06-19,Contato Inicial,Evento,Agatha Costa
+471,248,22,2025-04-17,Contato Inicial,E-mail,Ana Laura Sales
+29,247,56,2025-05-24,Negociação,LinkedIn,Alexandre Pinto
+118,246,15,2025-06-07,Contato Inicial,Evento,Bernardo Correia
+426,245,96,2025-05-31,Negociação,Telefone,Isis Lima
+187,244,125,2025-05-24,Perdido,Telefone,Esther da Cunha
+359,244,125,2025-05-20,Perdido,E-mail,Srta. Stephany Fernandes
+173,243,37,2025-06-04,Reunião Agendada,Evento,Davi Luiz Moraes
+409,243,37,2025-06-02,Contato Inicial,LinkedIn,Emilly Silveira
+77,241,138,2025-04-25,Negociação,LinkedIn,Vitor Gabriel Duarte
+196,241,138,2025-06-19,Contato Inicial,Evento,Francisco Peixoto
+339,241,138,2025-04-26,Perdido,E-mail,Sr. João Pedro Moura
+399,241,138,2025-06-16,Perdido,LinkedIn,João Vitor Cardoso
+305,239,3,2025-06-08,Perdido,E-mail,Alícia Teixeira
+469,239,3,2025-05-03,Negociação,Evento,Sra. Bianca Farias
+123,238,132,2025-06-21,Reunião Agendada,Indicação,Luiz Henrique Costa
+362,238,132,2025-04-08,Perdido,LinkedIn,Sra. Daniela Duarte
+110,237,27,2025-06-03,Perdido,Indicação,Davi Lucca Teixeira
+141,237,27,2025-05-12,Negociação,Indicação,Carolina Melo
+20,236,6,2025-03-29,Reunião Agendada,E-mail,Lucca da Cruz
+395,236,6,2025-05-07,Proposta Enviada,Indicação,Nina Silva
+239,235,100,2025-04-21,Fechado,Evento,Pedro Cavalcanti
+388,234,127,2025-05-23,Proposta Enviada,Telefone,Sr. Marcos Vinicius Barros
+64,233,139,2025-05-22,Fechado,Telefone,Helena Moreira
+473,233,139,2025-04-25,Reunião Agendada,LinkedIn,Dra. Maria Sophia da Cruz
+476,233,139,2025-04-07,Fechado,Indicação,Caio da Conceição
+371,232,38,2025-04-25,Perdido,E-mail,Ana Beatriz Rodrigues
+340,231,110,2025-05-07,Fechado,LinkedIn,Yasmin Peixoto
+381,231,110,2025-06-16,Fechado,Evento,Maria Cecília da Conceição
+12,230,123,2025-04-10,Proposta Enviada,E-mail,Pietra Silva
+185,229,17,2025-04-01,Fechado,Evento,Maria Oliveira
+290,229,17,2025-05-06,Contato Inicial,Evento,Enzo Gabriel Fernandes
+299,229,17,2025-06-08,Negociação,E-mail,Sra. Júlia Campos
+348,229,17,2025-04-12,Reunião Agendada,Telefone,Joaquim Carvalho
+106,227,134,2025-05-05,Negociação,Indicação,Ana Carolina Rodrigues
+74,226,57,2025-05-04,Fechado,LinkedIn,Luiz Otávio Ramos
+79,226,57,2025-06-11,Fechado,Indicação,Eloah Viana
+264,226,57,2025-04-20,Fechado,LinkedIn,Pedro da Costa
+112,224,37,2025-06-20,Perdido,Evento,Olivia Porto
+406,224,37,2025-06-25,Perdido,E-mail,Beatriz das Neves
+308,223,100,2025-05-22,Negociação,Indicação,Danilo Gonçalves
+4,222,27,2025-06-18,Negociação,Telefone,Maria Luiza da Mata
+461,222,27,2025-06-13,Reunião Agendada,Telefone,André Azevedo
+80,221,77,2025-05-24,Perdido,Evento,Ian Rezende
+283,221,77,2025-04-17,Fechado,Telefone,Dr. Gustavo Henrique Castro
+17,220,42,2025-04-13,Fechado,Evento,Erick Correia
+97,220,42,2025-04-29,Contato Inicial,E-mail,Maria Julia Costa
+202,219,3,2025-04-15,Perdido,Evento,Dra. Natália Viana
+372,219,3,2025-06-24,Contato Inicial,Evento,Ryan Pereira
+428,218,120,2025-04-23,Contato Inicial,Evento,Levi Mendes
+95,217,100,2025-06-20,Negociação,LinkedIn,Lucca Correia
+31,216,58,2025-06-25,Fechado,E-mail,Lara Santos
+71,216,58,2025-06-20,Proposta Enviada,LinkedIn,João Gabriel Porto
+113,216,58,2025-05-16,Contato Inicial,E-mail,João Gabriel Nunes
+472,216,58,2025-04-07,Negociação,Evento,Dr. Alexandre Dias
+265,215,70,2025-05-08,Proposta Enviada,Evento,Sra. Ana Sophia Souza
+373,214,10,2025-03-29,Proposta Enviada,LinkedIn,Emanuella Pinto
+11,213,35,2025-03-30,Negociação,E-mail,Sr. Gustavo Teixeira
+253,213,35,2025-05-25,Proposta Enviada,Evento,Calebe Fernandes
+137,212,46,2025-06-12,Reunião Agendada,E-mail,Ana Sophia Pires
+250,212,46,2025-05-19,Negociação,Telefone,Catarina Jesus
+292,212,46,2025-05-13,Perdido,Evento,Sr. Diego Ribeiro
+57,211,5,2025-04-05,Proposta Enviada,Evento,Milena Fogaça
+230,211,5,2025-05-23,Negociação,Indicação,Ryan Cunha
+226,210,76,2025-06-14,Fechado,Indicação,Eloah Rocha
+178,209,60,2025-05-19,Negociação,LinkedIn,Pedro Miguel Sales
+36,208,58,2025-03-31,Reunião Agendada,LinkedIn,Bárbara Caldeira
+389,205,77,2025-03-30,Fechado,Indicação,Luiz Otávio Moraes
+69,204,96,2025-06-09,Contato Inicial,LinkedIn,João Miguel Souza
+434,204,96,2025-04-24,Proposta Enviada,E-mail,Davi Lucas Moraes
+467,204,96,2025-06-19,Proposta Enviada,Indicação,Emilly Rocha
+486,204,96,2025-05-30,Contato Inicial,Indicação,Srta. Nina Mendes
+234,203,114,2025-06-14,Proposta Enviada,Indicação,Sr. Lucas Gabriel Martins
+190,202,83,2025-05-03,Proposta Enviada,Indicação,Daniel Cardoso
+163,201,35,2025-06-24,Negociação,LinkedIn,Stella Vieira
+276,201,35,2025-04-23,Fechado,Telefone,Sra. Luiza Duarte
+356,201,35,2025-04-03,Perdido,Telefone,Thomas Teixeira
+496,201,35,2025-05-14,Proposta Enviada,LinkedIn,Luigi Alves
+22,200,128,2025-06-21,Perdido,Indicação,Elisa Fernandes
+46,200,128,2025-04-20,Fechado,Indicação,Maitê Lopes
+489,199,36,2025-06-19,Fechado,Telefone,Dra. Gabriela Caldeira
+424,198,56,2025-05-09,Proposta Enviada,E-mail,Júlia Azevedo
+296,197,76,2025-06-15,Proposta Enviada,Evento,Sr. Guilherme Fernandes
+350,196,44,2025-05-31,Fechado,LinkedIn,Sr. Leonardo Duarte
+398,196,44,2025-04-22,Negociação,Indicação,Milena Araújo
+306,195,102,2025-05-05,Perdido,Evento,Srta. Isis Oliveira
+53,194,114,2025-04-11,Proposta Enviada,LinkedIn,Emanuelly Farias
+34,193,75,2025-05-14,Contato Inicial,Evento,Miguel da Conceição
+405,193,75,2025-06-13,Proposta Enviada,Telefone,Davi Lucca Gomes
+84,192,130,2025-05-07,Fechado,Telefone,Sr. Francisco Moura
+215,192,130,2025-04-23,Negociação,Indicação,Marcelo da Luz
+229,191,8,2025-06-20,Reunião Agendada,Telefone,Alexia Campos
+261,191,8,2025-03-29,Fechado,Evento,Emilly Alves
+35,190,110,2025-06-21,Proposta Enviada,LinkedIn,Isaac Sales
+51,189,53,2025-05-25,Fechado,Indicação,Bruna Gonçalves
+286,189,53,2025-05-11,Reunião Agendada,Evento,Amanda da Costa
+353,189,53,2025-06-07,Reunião Agendada,E-mail,Dra. Laís Fernandes
+495,189,53,2025-04-22,Fechado,E-mail,Kevin Rocha
+257,185,34,2025-03-30,Reunião Agendada,E-mail,Raquel Monteiro
+390,185,34,2025-05-07,Reunião Agendada,Evento,Kamilly Nogueira
+166,184,79,2025-03-30,Negociação,Indicação,Maria Costela
+238,184,79,2025-05-04,Perdido,LinkedIn,Larissa Fernandes
+413,184,79,2025-06-12,Contato Inicial,E-mail,Pietro Aragão
+323,183,21,2025-05-31,Proposta Enviada,Indicação,Sr. Felipe Cardoso
+324,183,21,2025-04-08,Contato Inicial,Telefone,Raul Ramos
+131,182,72,2025-05-05,Proposta Enviada,LinkedIn,Joana Santos
+309,182,72,2025-06-02,Proposta Enviada,Evento,Helena Cardoso
+310,182,72,2025-05-18,Proposta Enviada,Indicação,Dr. Ryan Cavalcanti
+129,181,132,2025-05-16,Contato Inicial,Telefone,Ana Carolina da Rosa
+99,178,112,2025-05-09,Proposta Enviada,Telefone,Dr. Calebe da Rosa
+43,177,16,2025-04-18,Perdido,Telefone,Kaique Ribeiro
+377,177,16,2025-04-13,Fechado,LinkedIn,Ana Sophia Melo
+493,176,4,2025-06-05,Perdido,LinkedIn,João Felipe Novaes
+197,175,68,2025-06-22,Proposta Enviada,Indicação,Benício Gomes
+270,175,68,2025-06-08,Negociação,Indicação,Dra. Lívia Almeida
+451,175,68,2025-06-12,Perdido,LinkedIn,Brenda Pereira
+481,175,68,2025-06-04,Contato Inicial,Telefone,Lara da Rocha
+490,175,68,2025-05-23,Perdido,Telefone,Bryan Oliveira
+143,174,100,2025-03-31,Reunião Agendada,Telefone,Fernanda Cavalcanti
+199,174,100,2025-05-21,Contato Inicial,Indicação,Ana Melo
+289,174,100,2025-06-07,Negociação,Evento,Ryan Mendes
+427,173,9,2025-06-24,Proposta Enviada,Indicação,Dra. Nina Araújo
+212,172,102,2025-05-31,Perdido,Telefone,Marcelo da Rocha
+497,172,102,2025-05-15,Fechado,Evento,Davi Lucca Rodrigues
+333,171,19,2025-05-01,Fechado,Telefone,Caroline Oliveira
+82,170,22,2025-04-10,Reunião Agendada,Telefone,Ana Carolina Moraes
+459,170,22,2025-04-07,Reunião Agendada,Telefone,Isabelly da Cruz
+104,166,128,2025-04-16,Reunião Agendada,Telefone,Augusto Farias
+146,166,128,2025-04-03,Proposta Enviada,LinkedIn,Brenda Fernandes
+300,166,128,2025-04-09,Fechado,Evento,Srta. Brenda Nogueira
+313,166,128,2025-05-23,Reunião Agendada,LinkedIn,Davi Porto
+165,165,126,2025-05-12,Reunião Agendada,Telefone,Renan Cunha
+360,165,126,2025-04-09,Contato Inicial,LinkedIn,Nathan Ribeiro
+436,165,126,2025-04-21,Contato Inicial,Telefone,Sr. Luiz Otávio Monteiro
+122,164,33,2025-06-08,Fechado,E-mail,Helena Ferreira
+440,164,33,2025-06-08,Proposta Enviada,LinkedIn,Sr. Anthony Costa
+355,163,72,2025-04-24,Contato Inicial,Indicação,João Miguel Ramos
+397,163,72,2025-06-15,Proposta Enviada,LinkedIn,Ana da Paz
+462,163,72,2025-05-07,Reunião Agendada,Telefone,Catarina Sales
+42,162,66,2025-05-20,Perdido,Evento,Eduardo Rodrigues
+228,162,66,2025-05-21,Contato Inicial,LinkedIn,Davi Lucca Rodrigues
+301,162,66,2025-06-21,Proposta Enviada,E-mail,Stephany Gonçalves
+325,162,66,2025-06-20,Negociação,Telefone,Laura da Mota
+345,162,66,2025-05-06,Fechado,Indicação,João Lucas Fernandes
+494,162,66,2025-05-09,Reunião Agendada,Indicação,Clara da Rosa
+266,161,111,2025-06-12,Fechado,Indicação,Sr. Gustavo Gonçalves
+336,161,111,2025-06-12,Fechado,Evento,Stella da Cruz
+343,161,111,2025-06-12,Fechado,Indicação,Beatriz Sales
+314,160,139,2025-04-03,Fechado,Telefone,Srta. Ana Beatriz Pinto
+392,160,139,2025-04-23,Perdido,Evento,Maysa Viana
+443,160,139,2025-04-19,Fechado,LinkedIn,Diego Cavalcanti
+7,159,107,2025-05-22,Contato Inicial,LinkedIn,Cauê Cardoso
+21,158,44,2025-05-21,Fechado,Telefone,Srta. Isabelly Dias
+128,158,44,2025-05-17,Perdido,Telefone,Dra. Natália Fogaça
+159,158,44,2025-03-31,Negociação,Indicação,Heitor Rocha
+315,158,44,2025-06-11,Contato Inicial,Indicação,Yago Viana
+337,158,44,2025-04-02,Contato Inicial,Indicação,Gabrielly da Rosa
+456,158,44,2025-04-09,Reunião Agendada,Indicação,Isadora Cardoso
+446,157,68,2025-05-01,Contato Inicial,LinkedIn,Dra. Evelyn da Mota
+254,156,4,2025-05-09,Contato Inicial,LinkedIn,Sr. Carlos Eduardo Moura
+255,156,4,2025-06-08,Fechado,Telefone,Thales Pires
+361,156,4,2025-04-07,Fechado,LinkedIn,Mirella Alves
+10,154,66,2025-04-14,Negociação,E-mail,Mariane Moura
+351,154,66,2025-04-12,Negociação,Indicação,Sra. Mirella Viana
+194,153,1,2025-06-14,Fechado,Evento,Murilo Barbosa
+236,153,1,2025-05-24,Negociação,Indicação,Letícia Cavalcanti
+365,153,1,2025-04-27,Contato Inicial,Telefone,Vicente Moreira
+380,151,46,2025-06-10,Negociação,LinkedIn,Lavínia Cunha
+179,150,36,2025-05-19,Proposta Enviada,Evento,Raul da Rosa
+200,150,36,2025-06-10,Contato Inicial,LinkedIn,Vitor Gabriel Cunha
+316,150,36,2025-06-07,Negociação,E-mail,Sra. Isadora Duarte
+175,149,42,2025-05-29,Perdido,E-mail,Nicolas Costa
+208,149,42,2025-06-22,Contato Inicial,E-mail,Ana Vitória Mendes
+252,149,42,2025-05-25,Contato Inicial,Telefone,Isabella da Paz
+319,149,42,2025-05-31,Contato Inicial,Telefone,Dr. Gustavo Fernandes
+15,148,4,2025-04-30,Reunião Agendada,Telefone,João Lucas Moreira
+393,148,4,2025-06-05,Contato Inicial,Telefone,Júlia Silveira
+418,148,4,2025-04-15,Contato Inicial,Indicação,Daniel da Rosa
+161,147,11,2025-05-12,Reunião Agendada,LinkedIn,Valentina Pereira
+37,146,3,2025-04-19,Fechado,Telefone,Helena Pires
+307,146,3,2025-05-14,Negociação,E-mail,Arthur Barros
+16,145,5,2025-04-25,Negociação,E-mail,Augusto Rodrigues
+91,145,5,2025-06-18,Negociação,Evento,Otávio Alves
+479,145,5,2025-06-07,Proposta Enviada,Indicação,Clarice Lima
+317,144,82,2025-06-06,Fechado,Telefone,Ryan Melo
+358,143,33,2025-06-04,Contato Inicial,LinkedIn,Kevin Monteiro
+61,142,123,2025-04-10,Negociação,LinkedIn,Ana Lívia Martins
+247,142,123,2025-05-14,Proposta Enviada,Evento,Ana Lívia Ramos
+295,142,123,2025-04-23,Negociação,Telefone,Milena Almeida
+421,142,123,2025-05-22,Negociação,LinkedIn,Sr. Leonardo Costela
+67,141,63,2025-04-23,Reunião Agendada,E-mail,Sr. Samuel Barros
+485,141,63,2025-06-16,Fechado,E-mail,Sr. Luiz Henrique Cavalcanti
+45,140,116,2025-06-14,Proposta Enviada,E-mail,Maria Cecília Ferreira
+117,140,116,2025-05-10,Fechado,Telefone,Bryan Barros
+147,139,7,2025-05-17,Negociação,Indicação,Luiz Henrique Moura
+235,139,7,2025-06-21,Negociação,Indicação,Theo Pinto
+126,138,130,2025-06-15,Perdido,LinkedIn,Lorena da Paz
+410,138,130,2025-04-22,Perdido,LinkedIn,Pedro Lucas da Mota
+484,138,130,2025-06-06,Contato Inicial,LinkedIn,Davi Luiz Teixeira
+332,136,77,2025-05-22,Reunião Agendada,Telefone,Cecília Lima
+414,136,77,2025-05-16,Reunião Agendada,E-mail,Kaique Lopes
+148,135,70,2025-05-25,Proposta Enviada,Indicação,Laís Castro
+327,134,85,2025-04-03,Proposta Enviada,Evento,Pedro Moura
+407,134,85,2025-05-10,Contato Inicial,LinkedIn,Maria Cavalcanti
+157,133,23,2025-06-09,Reunião Agendada,LinkedIn,Antônio da Luz
+191,133,23,2025-05-26,Perdido,Telefone,Ana Lívia Mendes
+352,133,23,2025-05-23,Reunião Agendada,Evento,Joana Moraes
+94,132,136,2025-06-05,Fechado,E-mail,Melissa Costela
+181,132,136,2025-05-08,Perdido,E-mail,Maria Julia Ramos
+213,132,136,2025-06-16,Negociação,Evento,Daniel Porto
+282,132,136,2025-04-04,Contato Inicial,Evento,André Alves
+364,132,136,2025-06-11,Perdido,Evento,Sr. Luiz Otávio das Neves
+433,132,136,2025-04-25,Perdido,LinkedIn,Lara Castro
+170,131,96,2025-06-16,Reunião Agendada,Telefone,Davi da Luz
+44,128,93,2025-05-25,Perdido,Evento,Enzo Cardoso
+357,128,93,2025-05-26,Fechado,Evento,Dr. Vitor Teixeira
+366,128,93,2025-04-11,Proposta Enviada,Indicação,Srta. Melissa Pires
+464,128,93,2025-06-22,Reunião Agendada,E-mail,Isis Vieira
+62,126,78,2025-04-08,Fechado,E-mail,Benjamin da Rosa
+132,125,60,2025-06-06,Fechado,Evento,Enrico Castro
+416,125,60,2025-04-01,Negociação,Indicação,Evelyn Peixoto
+450,125,60,2025-06-21,Perdido,E-mail,Nina Farias
+156,124,82,2025-05-21,Proposta Enviada,Evento,Ana Luiza Araújo
+448,123,115,2025-05-23,Perdido,LinkedIn,Arthur Viana
+378,121,132,2025-05-15,Reunião Agendada,Telefone,Heloísa Aragão
+386,121,132,2025-06-04,Negociação,Evento,Renan Caldeira
+404,121,132,2025-06-04,Perdido,Indicação,Kaique Lima
+47,119,23,2025-05-26,Negociação,Telefone,Brenda Cunha
+66,119,23,2025-04-18,Contato Inicial,LinkedIn,Marina Aragão
+403,118,80,2025-06-04,Fechado,E-mail,Sr. Breno Vieira
+85,117,79,2025-05-21,Proposta Enviada,Telefone,João Lucas Fogaça
+222,117,79,2025-05-06,Perdido,Evento,Dra. Raquel Castro
+302,117,79,2025-05-09,Contato Inicial,Indicação,Sr. Matheus Gonçalves
+478,117,79,2025-06-17,Reunião Agendada,Indicação,Sofia Nascimento
+27,116,35,2025-04-12,Perdido,Telefone,Gabriela Teixeira
+139,116,35,2025-04-27,Fechado,E-mail,Sr. Luigi Mendes
+145,115,63,2025-05-02,Negociação,Telefone,Henrique Nogueira
+210,115,63,2025-05-23,Fechado,Indicação,Letícia Moura
+312,115,63,2025-05-07,Contato Inicial,E-mail,Maria Vitória da Paz
+23,114,124,2025-05-04,Perdido,LinkedIn,Srta. Maria Eduarda Costela
+241,114,124,2025-04-17,Proposta Enviada,LinkedIn,Luiz Felipe da Conceição
+130,112,101,2025-06-07,Perdido,Indicação,Júlia da Mota
+183,111,115,2025-04-14,Proposta Enviada,Indicação,Dra. Clara Lopes
+221,110,118,2025-06-22,Proposta Enviada,Indicação,Caio da Rocha
+262,110,118,2025-04-30,Negociação,E-mail,Gustavo Henrique Nascimento
+87,109,38,2025-04-26,Reunião Agendada,Evento,Marina Nunes
+223,109,38,2025-04-30,Reunião Agendada,Indicação,Yago Gomes
+144,108,91,2025-06-21,Reunião Agendada,Indicação,Diogo Correia
+169,108,91,2025-03-29,Contato Inicial,LinkedIn,Lorena Barbosa
+387,108,91,2025-04-05,Contato Inicial,Indicação,Luiz Fernando Castro
+411,107,17,2025-06-12,Contato Inicial,Indicação,Dra. Daniela da Mata
+437,107,17,2025-04-12,Fechado,Evento,Dra. Isabelly Rodrigues
+135,106,24,2025-05-20,Perdido,LinkedIn,Laís da Luz
+311,106,24,2025-05-29,Perdido,Indicação,Vicente Barros
+24,105,140,2025-04-13,Contato Inicial,Evento,Danilo Martins
+164,105,140,2025-05-23,Proposta Enviada,LinkedIn,Thiago Ramos
+441,105,140,2025-05-31,Contato Inicial,LinkedIn,Heitor Teixeira
+474,105,140,2025-06-21,Fechado,E-mail,Dr. Ryan Barbosa
+188,104,136,2025-05-28,Fechado,Telefone,Ian Rocha
+445,104,136,2025-03-28,Fechado,LinkedIn,Sr. Heitor das Neves
+182,102,27,2025-05-30,Proposta Enviada,LinkedIn,Sra. Emilly Viana
+245,102,27,2025-05-23,Contato Inicial,LinkedIn,Agatha Caldeira
+322,102,27,2025-06-19,Reunião Agendada,LinkedIn,Juliana Barros
+251,101,100,2025-04-01,Reunião Agendada,E-mail,Marcelo Santos
+75,100,85,2025-05-13,Fechado,Indicação,Lavínia Costela
+297,100,85,2025-06-20,Contato Inicial,Indicação,Pietro Correia
+370,99,49,2025-05-15,Perdido,LinkedIn,Ana Clara da Rocha
+374,99,49,2025-04-09,Perdido,Evento,João Guilherme da Rosa
+136,98,54,2025-05-26,Reunião Agendada,Evento,Enzo Carvalho
+193,98,54,2025-04-22,Perdido,Indicação,Noah Barbosa
+287,98,54,2025-06-06,Negociação,E-mail,Benício Nogueira
+391,97,70,2025-06-25,Contato Inicial,LinkedIn,Isadora Nascimento
+115,96,97,2025-06-20,Proposta Enviada,E-mail,Murilo Fernandes
+160,96,97,2025-05-23,Negociação,Indicação,Diego da Conceição
+435,96,97,2025-05-11,Proposta Enviada,Indicação,João Lucas Santos
+103,95,135,2025-05-10,Contato Inicial,LinkedIn,Sophie Silveira
+204,94,79,2025-05-22,Fechado,Telefone,Joana da Rocha
+275,94,79,2025-06-23,Perdido,LinkedIn,Alana Moraes
+318,94,79,2025-05-10,Perdido,E-mail,Sabrina Dias
+463,94,79,2025-06-25,Reunião Agendada,LinkedIn,Raul Oliveira
+18,93,68,2025-05-18,Perdido,LinkedIn,Srta. Brenda Ferreira
+260,92,85,2025-06-01,Reunião Agendada,LinkedIn,Larissa da Costa
+329,92,85,2025-04-09,Fechado,Indicação,Giovanna Santos
+70,91,37,2025-04-20,Perdido,LinkedIn,Olivia Rocha
+142,91,37,2025-05-30,Proposta Enviada,Telefone,Isabelly Rocha
+291,91,37,2025-05-15,Proposta Enviada,LinkedIn,Srta. Maria Clara Peixoto
+13,90,40,2025-05-29,Fechado,Indicação,Sr. Lucca Duarte
+162,90,40,2025-04-25,Fechado,Evento,Natália da Paz
+267,89,138,2025-06-24,Contato Inicial,LinkedIn,Pedro Lucas das Neves
+431,89,138,2025-04-16,Reunião Agendada,Evento,Ana Laura Martins
+151,88,140,2025-05-16,Proposta Enviada,Evento,Sra. Ana Vitória Mendes
+209,88,140,2025-04-08,Contato Inicial,E-mail,Sra. Raquel Moura
+220,88,140,2025-05-11,Proposta Enviada,LinkedIn,Sra. Ana Clara Novaes
+90,87,42,2025-05-28,Contato Inicial,Telefone,Carolina Cavalcanti
+242,87,42,2025-05-16,Reunião Agendada,Evento,Vitor Hugo Lima
+269,87,42,2025-05-09,Contato Inicial,E-mail,Calebe Fernandes
+453,87,42,2025-04-21,Negociação,Indicação,Mariane Costela
+26,84,68,2025-06-04,Reunião Agendada,Evento,Davi da Mota
+174,84,68,2025-04-05,Contato Inicial,Evento,Augusto Farias
+205,84,68,2025-06-15,Reunião Agendada,Telefone,Brenda Ribeiro
+232,84,68,2025-04-21,Fechado,Indicação,Milena Pereira
+233,82,108,2025-04-21,Fechado,Telefone,Laura Correia
+152,81,18,2025-04-19,Negociação,Telefone,Samuel da Cunha
+430,81,18,2025-04-19,Perdido,Evento,Sofia Fernandes
+125,80,115,2025-05-03,Negociação,Telefone,Mirella Melo
+285,80,115,2025-05-03,Perdido,Evento,Luiz Gustavo Moura
+470,80,115,2025-04-24,Reunião Agendada,Evento,Gabrielly Viana
+33,79,30,2025-06-06,Perdido,Indicação,Amanda Moura
+184,79,30,2025-06-06,Proposta Enviada,LinkedIn,Luiz Felipe Silva
+454,78,32,2025-06-24,Contato Inicial,E-mail,João Lucas da Conceição
+468,78,32,2025-05-14,Reunião Agendada,Indicação,Maria Sophia Novaes
+167,76,111,2025-06-04,Perdido,LinkedIn,Dra. Eduarda Barbosa
+9,75,32,2025-04-13,Proposta Enviada,Telefone,Maria Caldeira
+338,75,32,2025-06-08,Fechado,Evento,Davi Luiz da Conceição
+439,75,32,2025-05-17,Proposta Enviada,Indicação,Alexia Pires
+49,73,72,2025-05-05,Perdido,Evento,Srta. Ana Lopes
+172,72,71,2025-06-25,Contato Inicial,E-mail,Esther Ramos
+231,72,71,2025-06-15,Fechado,Evento,Nina Moraes
+354,71,141,2025-05-19,Fechado,Indicação,Davi Lucas Oliveira
+127,67,122,2025-06-07,Perdido,E-mail,Dra. Mirella Alves
+111,66,67,2025-05-01,Fechado,Telefone,João Miguel Vieira
+246,66,67,2025-06-14,Reunião Agendada,Telefone,Catarina da Mota
+98,65,96,2025-06-11,Fechado,Evento,Caroline Melo
+385,65,96,2025-04-02,Contato Inicial,LinkedIn,Cauê Rodrigues
+438,65,96,2025-05-13,Perdido,Evento,Lucca Alves
+298,63,48,2025-05-30,Perdido,Indicação,Pedro Henrique Moura
+219,62,59,2025-04-03,Contato Inicial,Evento,Luiz Otávio Cunha
+369,61,59,2025-06-18,Reunião Agendada,LinkedIn,Dr. Antônio Azevedo
+138,60,89,2025-04-25,Perdido,Indicação,Gustavo Azevedo
+303,60,89,2025-05-04,Fechado,LinkedIn,Maria Eduarda Martins
+83,59,22,2025-05-31,Fechado,Evento,Luiz Fernando da Paz
+206,59,22,2025-06-04,Fechado,E-mail,Luiz Otávio Farias
+402,59,22,2025-06-11,Fechado,Telefone,Ana Sophia Mendes
+460,58,92,2025-04-12,Negociação,E-mail,Isabel Campos
+19,56,59,2025-05-25,Reunião Agendada,Evento,Sra. Maria Sophia Dias
+114,56,59,2025-04-03,Proposta Enviada,E-mail,Sr. Luiz Felipe Porto
+458,56,59,2025-04-09,Perdido,Evento,Ana Lívia Fernandes
+483,56,59,2025-05-05,Fechado,E-mail,Noah Cardoso
+30,55,126,2025-04-23,Negociação,E-mail,Dr. Pedro Moreira
+52,55,126,2025-06-20,Proposta Enviada,E-mail,Gabriela Viana
+455,54,91,2025-06-06,Fechado,LinkedIn,Stella Caldeira
+3,53,140,2025-06-11,Negociação,Indicação,Heloísa Aragão
+100,53,140,2025-04-27,Reunião Agendada,Indicação,Pedro Henrique Campos
+93,52,62,2025-04-17,Negociação,Indicação,Kaique Vieira
+408,51,32,2025-06-05,Reunião Agendada,Evento,Enzo Gabriel Jesus
+432,50,127,2025-06-15,Negociação,Indicação,Clarice Cavalcanti
+54,49,15,2025-06-09,Negociação,E-mail,Maysa Pereira
+487,49,15,2025-05-16,Negociação,E-mail,Sra. Sabrina Viana
+248,48,32,2025-06-20,Proposta Enviada,LinkedIn,Laís Jesus
+331,48,32,2025-05-31,Perdido,Evento,Maria Vitória da Costa
+40,47,100,2025-05-01,Fechado,Evento,Augusto Silveira
+447,47,100,2025-06-06,Contato Inicial,E-mail,Sabrina da Luz
+124,46,77,2025-05-08,Perdido,Indicação,Carlos Eduardo Ribeiro
+155,45,50,2025-05-25,Reunião Agendada,Indicação,Marcela Jesus
+211,45,50,2025-06-10,Contato Inicial,LinkedIn,Vicente Cardoso
+217,43,23,2025-03-29,Perdido,LinkedIn,Luiz Otávio Monteiro
+346,43,23,2025-06-17,Negociação,LinkedIn,Gabriel Freitas
+449,43,23,2025-04-22,Fechado,LinkedIn,Heloísa Viana
+500,43,23,2025-05-05,Contato Inicial,E-mail,Thiago Porto
+320,40,117,2025-05-09,Perdido,LinkedIn,Olivia Novaes
+376,40,117,2025-04-24,Negociação,E-mail,Lívia Gonçalves
+263,38,15,2025-04-02,Reunião Agendada,E-mail,Ana Luiza Peixoto
+379,37,78,2025-06-24,Negociação,E-mail,Luigi Ribeiro
+8,36,78,2025-04-15,Fechado,Telefone,Miguel Costela
+158,36,78,2025-06-24,Negociação,E-mail,Vicente Rocha
+326,36,78,2025-04-05,Negociação,Telefone,Heloísa Fogaça
+491,36,78,2025-05-08,Contato Inicial,Evento,Stella da Cruz
+201,35,99,2025-05-05,Fechado,Telefone,Felipe Vieira
+342,35,99,2025-04-18,Proposta Enviada,Telefone,Miguel Lopes
+176,34,48,2025-04-03,Fechado,LinkedIn,Marina Rezende
+134,33,120,2025-05-28,Fechado,Telefone,Vitor Hugo Moraes
+207,31,24,2025-04-11,Fechado,Indicação,Renan Barros
+237,31,24,2025-03-28,Contato Inicial,Telefone,Ryan Ramos
+396,30,69,2025-04-11,Proposta Enviada,E-mail,João Gabriel Lopes
+344,29,65,2025-05-12,Contato Inicial,LinkedIn,Igor Rezende
+186,28,138,2025-04-16,Perdido,LinkedIn,Kaique da Cruz
+102,27,54,2025-05-14,Perdido,Telefone,Yasmin Cavalcanti
+274,27,54,2025-06-12,Proposta Enviada,Evento,Davi da Cunha
+420,27,54,2025-04-19,Contato Inicial,LinkedIn,Pedro Lucas Santos
+498,25,142,2025-05-12,Fechado,E-mail,Dra. Emanuella da Rosa
+243,24,33,2025-05-11,Reunião Agendada,Evento,Luiz Fernando Campos
+375,23,92,2025-05-22,Reunião Agendada,Telefone,Arthur da Cruz
+240,22,9,2025-04-30,Perdido,E-mail,Bryan Ribeiro
+25,20,128,2025-04-22,Fechado,Indicação,Evelyn Nascimento
+109,19,109,2025-06-05,Contato Inicial,Telefone,Vitor Hugo da Cruz
+258,19,109,2025-06-03,Negociação,LinkedIn,Maria da Conceição
+457,19,109,2025-03-31,Perdido,Indicação,Thales Alves
+429,18,125,2025-05-13,Fechado,Indicação,Beatriz Mendes
+168,16,142,2025-05-07,Reunião Agendada,E-mail,Benício Rezende
+367,16,142,2025-05-20,Negociação,LinkedIn,Benjamin Silva
+41,15,94,2025-04-07,Fechado,Indicação,Nathan Cardoso
+347,15,94,2025-04-05,Fechado,Telefone,Dr. Diego Aragão
+425,15,94,2025-05-21,Reunião Agendada,Evento,Luiza Lopes
+277,14,36,2025-04-12,Negociação,Telefone,Maria Sophia Cardoso
+48,13,113,2025-04-02,Reunião Agendada,Evento,João Vitor da Cunha
+177,13,113,2025-04-22,Reunião Agendada,E-mail,Evelyn Azevedo
+225,13,113,2025-05-15,Perdido,LinkedIn,Pietra Ferreira
+244,13,113,2025-05-14,Contato Inicial,LinkedIn,Sr. Bryan Ribeiro
+349,13,113,2025-05-11,Reunião Agendada,Telefone,Miguel Costela
+475,12,7,2025-04-14,Negociação,Evento,Carolina Rodrigues
+72,11,51,2025-06-20,Fechado,Telefone,Ana Carolina Nascimento
+150,11,51,2025-05-02,Proposta Enviada,Evento,Mirella Rezende
+328,11,51,2025-04-30,Fechado,Indicação,Bruna Correia
+492,10,12,2025-03-29,Proposta Enviada,Evento,Theo Lima
+92,9,23,2025-05-09,Negociação,Telefone,Igor da Mota
+284,8,59,2025-04-19,Proposta Enviada,E-mail,Enzo da Rocha
+58,7,106,2025-06-12,Reunião Agendada,LinkedIn,Maria Cecília das Neves
+78,7,106,2025-04-24,Perdido,E-mail,Dr. Erick Moraes
+218,7,106,2025-05-30,Contato Inicial,Indicação,Dr. Davi Moraes
+394,7,106,2025-04-21,Fechado,E-mail,Dr. Augusto Porto
+28,6,78,2025-05-24,Fechado,LinkedIn,Thiago Porto
+259,5,4,2025-04-03,Negociação,Telefone,Sra. Lavínia Peixoto
+5,4,73,2025-04-27,Proposta Enviada,Evento,Larissa Gonçalves
+341,4,73,2025-06-17,Negociação,E-mail,Lara Silveira
+281,3,31,2025-06-15,Negociação,E-mail,Alexandre Nascimento
+171,2,41,2025-04-05,Reunião Agendada,Indicação,Leonardo Dias
