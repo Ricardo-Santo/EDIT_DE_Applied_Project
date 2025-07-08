@@ -1,10 +1,10 @@
-  ##  RegTech ETL Pipeline
+# RegTech ETL Pipeline
 
 A complete data engineering project that extracts, transforms, and loads IBM stock market and financial data using Python. It integrates with a PostgreSQL database and supports dbt for transformation and Power BI for visualization.
 
 ---
 
-###  Project Overview
+## Project Overview
 
 This project automates the ETL pipeline for JVA stock data and company financials using the [Alpha Vantage API](https://www.alphavantage.co/). It stores the processed data in a PostgreSQL database and prepares it for analysis and modeling with [dbt](https://www.getdbt.com/).
 
@@ -12,7 +12,6 @@ This project automates the ETL pipeline for JVA stock data and company financial
 
 ### Project Structure
 
-```
 Projeto_(etl_jva)/
 │
 ├── data/                       # Raw and processed CSVs
@@ -20,13 +19,12 @@ Projeto_(etl_jva)/
 ├── dbt_jva/                    # dbt project folder
 ├── src/                        # Python scripts
 │   ├── dashboard_jva.py
-│   ├── extraction.py
-│   ├── transformation.py
-│   └── load.py
+│   ├── Extract.py
+│   ├── Transform.py
+│   └── Load.py
 ├── requirements.txt            # Python dependencies
 ├── dockerfile                  # Containerized ETL pipeline
 └── README.md
-```
 
 ---
 
@@ -34,15 +32,15 @@ Projeto_(etl_jva)/
 
 - **Python 3.12**
 - **Pandas** for data manipulation
-- **SQLAlchemy** for database operations 
+- **SQLAlchemy** for database operations
 - **PostgreSQL** hosted on [Render](https://render.com/)
-- **Docker** for containerization 
-- **dbt** for transformations and models 
+- **Docker** for containerization
+- **dbt** for transformations and models
 - **Streamlit** for data visualization
 
 ---
 
-###  How it works
+### How it works
 
 1. **Extract**: Collects daily stock prices and company overview for JVA using Alpha Vantage API.
 2. **Transform**: Creates star schema tables (`dim_empresa`, `dim_indicador`, `dim_tempo`, `fact_cotacoes`, `fact_indicadores`).
@@ -52,7 +50,7 @@ Projeto_(etl_jva)/
 
 ---
 
-###  Run with Docker
+### Run with Docker
 
 ```bash
 # Build the Docker image
@@ -61,7 +59,8 @@ docker build -t etl_jva .
 # Run the ETL pipeline
 docker run --rm etl_jva
 ```
-###  Run the dashboard
+
+### Run the dashboard
 
 ```bash
 # Run dashboard visualization
