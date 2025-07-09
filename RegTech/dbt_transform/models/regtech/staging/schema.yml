@@ -1,0 +1,58 @@
+models:
+  - name: stg__dim_client
+    description: "Staging Dim Table with client information"
+    columns:
+      - name: id_cliente
+        description: "The primary key for the client dim table"
+        data_tests:
+          - unique
+          - not_null
+      - name: id_empresa
+        description: "Unique Identifier of the company related to the client"
+        data_tests:
+          - not_null
+      - name: nome
+        description: "Name of the client"
+        data_tests:
+          - not_null
+      - name: email
+        description: "Email of the client"
+        data_tests:
+          - not_null
+      - name: cargo
+        description: "Job Position of the client in the corresponding company"
+        data_tests:
+          - not_null
+
+  - name: stg__dim_empresa
+    description: "Staging Dim Table with client information"
+    columns:
+      - name: id_empresa
+        description: "The primary key for the company dim table"
+        data_tests:
+          - unique
+          - not_null
+      - name: cnpj
+        description: "It's the Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
+        data_tests:
+          - not_null
+      - name: nome_empresa
+        description: "Name of the company"
+        data_tests:
+          - not_null
+      - name: estado
+        description: "State where the company is located"
+        data_tests:
+          - not_null
+      - name: cidade
+        description: "City where the company is located"
+        data_tests:
+          - not_null
+      - name: pais
+        description: "Country where the company is located"
+        data_tests:
+          - not_null
+      - name: situacao
+        description: "Describes if the company is authorized to carry out it's activity"
+        data_tests:
+          - not_null
