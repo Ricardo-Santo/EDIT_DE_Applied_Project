@@ -1,5 +1,5 @@
 models:
-  - name: stg__dim_client
+  - name: stg__dim_cliente
     description: "Staging Dim Table with client information"
     columns:
       - name: id_cliente
@@ -7,6 +7,9 @@ models:
         data_tests:
           - unique
           - not_null
+          - relationships:
+              to: ref('stg__fato_contato')
+              field: id_cliente
       - name: id_empresa
         description: "Unique Identifier of the company related to the client"
         data_tests:
@@ -32,27 +35,109 @@ models:
         data_tests:
           - unique
           - not_null
+          - relationships:
+              to: ref('stg__fato_contato')
+              field: id_empresa
       - name: cnpj
-        description: "It's the Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
-        data_tests:
-          - not_null
+        description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
       - name: nome_empresa
         description: "Name of the company"
-        data_tests:
-          - not_null
       - name: estado
         description: "State where the company is located"
-        data_tests:
-          - not_null
       - name: cidade
         description: "City where the company is located"
-        data_tests:
-          - not_null
       - name: pais
         description: "Country where the company is located"
-        data_tests:
-          - not_null
       - name: situacao
         description: "Describes if the company is authorized to carry out it's activity"
+
+  - name: stg__dim_pix
+    description: "Staging Dim Table with Pix information"
+    columns:
+      - name: nome_reduzido
+        description: "Name of the company"
+        data_tests:
+          - unique
+          - not_null
+      - name: ispb
+        description: "Bank code ID"
+        data_tests:
+          - not_null
+      - name: cnpj
+        description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg__dim_empresa')
+              field: cnpj
+      - name: tipo_de_instituicao
+        description: "Type of institution of the company"
+        data_tests:
+          - not_null
+      - name: autorizada_bcb
+        description: "If the company was authorized by the BCB"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Sim', 'Não' ]
+      - name: tipo_participacao_spi
+        description: "Type of participation the company has in the SPI"
+      - name: tipo_participacao_pix
+        description: "Type of participation the company has in the PIX"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Facultativa', 'Obrigatória' ]
+      - name: mod_participacao_pix
+        description: "The type of the company within the PIX"
+        data_tests:
+          - not_null
+      - name: status_producao
+        description: "Status of production"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Ativo em operação plena', 'Ativo em operação restrita' ]
+      - name: inic_transacao_pagamento
+        description: "If the company has started transactions"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Sim', 'Não' ]
+      - name: facilitador_saque_troco
+        description: "Can the company facilitate withdrawls or change"
+        data_tests:
+          - not_null
+
+  - name: stg__fato_contato
+    description: "Staging Fact Table with information of the contact with the client"
+    columns:
+      - name: id_contato
+        description: "The primary key for the contact fact table"
+        data_tests:
+          - unique
+          - not_null
+      - name: id_cliente
+        description: "ID of the contacted client"
+        data_tests:
+          - not_null
+      - name: id_empresa
+        description: "ID of the company the client works at"
+        data_tests:
+          - not_null
+      - name: data_contato
+        description: "Date of the contact with the client"
+        data_tests:
+          - not_null
+      - name: etapa_funil
+        description: "Current funnel stage the client is at"
+        data_tests:
+          - not_null
+      - name: canal
+        description: "How the sales contact was made"
+        data_tests:
+          - not_null
+      - name: responsavel
+        description: "Person responsible for the contact"
         data_tests:
           - not_null
