@@ -1,3 +1,5 @@
 .venv/
 .env
 credentials.json
+/.env
+/RegTech/dbt_transform/profiles.yml
