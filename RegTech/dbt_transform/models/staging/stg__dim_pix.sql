@@ -8,7 +8,7 @@ WITH dim_pix_source AS (
 SELECT
     "Nome Reduzido" AS nome_reduzido,
     "ISPB" AS ispb,
-    REPLACE(REPLACE(SUBSTRING("CNPJ" FROM 1 FOR POSITION('/' IN "CNPJ") - 1), '.', ''), '-', '') AS cnpj,
+    REPLACE(REPLACE(SUBSTRING("CNPJ" FROM 1 FOR POSITION('/' IN "CNPJ") - 1), '.', ''), '-', '')::INTEGER AS cnpj,
     "Tipo de Instituição" AS tipo_de_instituicao,
     "Autorizada pelo BCB" AS autorizada_bcb,
     "Tipo de Participação no SPI" AS tipo_participacao_spi,

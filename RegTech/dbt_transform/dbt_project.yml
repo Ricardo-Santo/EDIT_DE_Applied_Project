@@ -22,6 +22,14 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+seeds:
+  dbt_transform:
+    geolocation_data:
+      +column_types:
+          state: varchar(2)
+          name: varchar(32)
+          lat: float
+          lon: float
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models

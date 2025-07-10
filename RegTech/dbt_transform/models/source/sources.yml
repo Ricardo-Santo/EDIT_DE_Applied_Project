@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: dbt_transform
+    schema: public
+    tables:
+      - name: dim_cliente
+      - name: dim_empresa
+      - name: dim_pix
+      - name: fato_contato

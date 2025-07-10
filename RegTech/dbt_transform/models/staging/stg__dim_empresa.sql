@@ -7,12 +7,12 @@ WITH dim_empresa_source AS (
 
 SELECT
     id_empresa::INTEGER AS id_empresa,
-    cnpj,
+    cnpj::INTEGER AS cnpj,
     nome_empresa,
     estado,
     cidade,
     pais,
     site,
-    situacao,
-FROM dim_client_source
-WHERE nome_empresa IS NOT NULL;
+    situacao
+FROM dim_empresa_source
+WHERE nome_empresa IS NOT NULL
