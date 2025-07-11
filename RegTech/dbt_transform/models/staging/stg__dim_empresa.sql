@@ -1,5 +1,3 @@
-{{ config(materialized='view') }}
-
 WITH dim_empresa_source AS (
     SELECT *
     FROM {{ source('dbt_transform', 'dim_empresa') }}
@@ -7,7 +5,7 @@ WITH dim_empresa_source AS (
 
 SELECT
     id_empresa::INTEGER AS id_empresa,
-    cnpj::INTEGER AS cnpj,
+    cnpj::TEXT AS cnpj,
     nome_empresa,
     estado,
     cidade,

@@ -1,4 +1,4 @@
-{{ config(materialized = 'view') }} WITH dim_cliente_source AS (
+WITH dim_cliente_source AS (
     SELECT *
     FROM {{ source('dbt_transform', 'dim_cliente') }}
 ),
