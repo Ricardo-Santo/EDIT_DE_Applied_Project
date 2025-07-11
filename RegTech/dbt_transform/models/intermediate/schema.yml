@@ -1,41 +1,61 @@
 models:
-  - name: stg__dim_cliente
-    description: '{{ doc("stg__dim_cliente") }}'
+  - name: int__cliente_empresa
+    description: '{{ doc("int__cliente_empresa") }}'
     columns:
       - name: id_cliente
-        description: "The primary key for the client dim table"
+        description: "Unique Identifier of the contacted cliente"
         data_tests:
           - unique
           - not_null
-      - name: id_empresa
-        description: "Unique Identifier of the company related to the client"
-        data_tests:
-          - not_null
       - name: nome
-        description: "Name of the contacted client"
+        description: "Name of the contacted cliente"
         data_tests:
           - not_null
       - name: email
-        description: "Email of the contacted client"
+        description: "Email of the contacted cliente"
         data_tests:
           - not_null
       - name: cargo
-        description: "Job Position of the client in the corresponding company"
+        description: "Position of the of the contacted cliente in the corresponding company"
+        data_tests:
+          - not_null
+      - name: id_empresa
+        description: "Identifier of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: nome_empresa
+        description: "Name of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: estado
+        description: "State where the company is located"
+        data_tests:
+          - not_null
+      - name: cidade
+        description: "City where the company is located"
+        data_tests:
+          - not_null
+      - name: pais
+        description: "Country where the company is located"
+        data_tests:
+          - not_null
+      - name: situacao
+        description: "State of the authorization given to the company by BACEN (Banco Central do Brasil)"
         data_tests:
           - not_null
 
-  - name: stg__dim_empresa
-    description: '{{ doc("stg__dim_empresa") }}'
+  - name: int__empresa_geolocation
+    description: '{{ doc("int__empresa_geolocation") }}'
     columns:
       - name: id_empresa
-        description: "The primary key for the company dim table"
+        description: "Unique Identifier of the company"
         data_tests:
           - unique
           - not_null
       - name: cnpj
         description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
       - name: nome_empresa
-        description: "Name of the company"
+        description: "Name of the company the contacted client works"
       - name: estado
         description: "State where the company is located"
       - name: cidade
@@ -46,36 +66,41 @@ models:
         description: "URL of the company's website"
       - name: situacao
         description: "Describes if the company is authorized to carry out it's activity"
+      - name: lat
+        description: "Latitude of the State the company's seeded"
+        data_tests:
+          - not_null
+      - name: lon
+        description: "Longitude of the State the company's seeded"
+        data_tests:
+          - not_null
 
-  - name: stg__dim_pix
-    description: '{{ doc("stg__dim_pix") }}'
+  - name: int__empresa_pix
+    description: '{{ doc("int__empresa_pix") }}'
     columns:
-      - name: nome_reduzido
-        description: "Name of the company"
+      - name: id_empresa
+        description: "Unique Identifier of the company"
         data_tests:
           - unique
           - not_null
-      - name: ispb
-        description: "Bank code ID"
+      - name: nome_empresa
+        description: "Name of the company the contacted client works"
+        data_tests:
+          - not_null
       - name: cnpj
         description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
         data_tests:
           - not_null
-          - relationships:
-              to: ref('stg__dim_empresa')
-              field: cnpj
       - name: tipo_de_instituicao
         description: "The type of institution that the company is"
         data_tests:
           - not_null
       - name: autorizada_bcb
-        description: "If the company was authorized by the BCB"
+        description: "Boolean representation if the company was authorized by the BCB or not"
         data_tests:
           - not_null
           - accepted_values:
               values: [ 'Sim', 'Não' ]
-      - name: tipo_participacao_spi
-        description: "Type of participation the company has in the SPI"
       - name: tipo_participacao_pix
         description: "Type of participation the company has in the PIX"
         data_tests:
@@ -101,26 +126,14 @@ models:
       - name: facilitador_saque_troco
         description: "Can the company facilitate withdrawals or change"
 
-  - name: stg__fato_contato
-    description: '{{ doc("stg__dim_pix") }}'
+  - name: int__fato_contato_enriched
+    description: '{{ doc("int__fato_contato_enriched") }}'
     columns:
       - name: id_contato
-        description: "The primary key for the contact fact table"
+        description: "Unique Identifier of the contact made with a given client"
         data_tests:
           - unique
           - not_null
-      - name: id_cliente
-        description: "ID of the contacted client"
-        data_tests:
-          - relationships:
-              to: ref('stg__dim_cliente')
-              field: id_cliente
-      - name: id_empresa
-        description: "ID of the company the client works at"
-        data_tests:
-          - relationships:
-              to: ref('stg__dim_empresa')
-              field: id_empresa
       - name: data_contato
         description: "Date of the contact with the client"
         data_tests:
@@ -135,5 +148,29 @@ models:
           - not_null
       - name: responsavel
         description: "Person responsible for the contact"
+        data_tests:
+          - not_null
+      - name: nome_cliente
+        description: "Name of the contacted client"
+        data_tests:
+          - not_null
+      - name: email
+        description: "Email of the contacted client"
+        data_tests:
+          - not_null
+      - name: cargo
+        description: "Job Position of the client in the corresponding company"
+        data_tests:
+          - not_null
+      - name: nome_empresa
+        description: "Name of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: estado
+        description: "State where the company is located"
+        data_tests:
+          - not_null
+      - name: cidade
+        description: "City where the company is located"
         data_tests:
           - not_null

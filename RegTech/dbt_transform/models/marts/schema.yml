@@ -1,0 +1,163 @@
+models:
+  - name: dim_clientes_final
+    description: '{{ doc("dim_clientes_final") }}'
+    columns:
+      - name: id_cliente
+        description: "Unique Identifier of the contacted cliente"
+        data_tests:
+          - unique
+          - not_null
+      - name: nome
+        description: "Name of the contacted cliente"
+        data_tests:
+          - not_null
+      - name: email
+        description: "Email of the contacted cliente"
+        data_tests:
+          - not_null
+      - name: cargo
+        description: "Position of the of the contacted cliente in the corresponding company"
+        data_tests:
+          - not_null
+      - name: id_empresa
+        description: "Identifier of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: nome_empresa
+        description: "Name of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: estado
+        description: "State where the company is located"
+        data_tests:
+          - not_null
+      - name: cidade
+        description: "City where the company is located"
+        data_tests:
+          - not_null
+      - name: pais
+        description: "Country where the company is located"
+        data_tests:
+          - not_null
+      - name: situacao
+        description: "State of the authorization given to the company by BACEN (Banco Central do Brasil)"
+        data_tests:
+          - not_null
+      - name: lat
+        description: "Latitude of the State the company's seeded"
+        data_tests:
+          - not_null
+      - name: lon
+        description: "Longitude of the State the company's seeded"
+        data_tests:
+          - not_null
+
+  - name: empresa_pix_analysis
+    description: '{{ doc("empresa_pix_analysis") }}'
+    columns:
+      - name: id_empresa
+        description: "Unique Identifier of the company"
+        data_tests:
+          - unique
+          - not_null
+      - name: nome_empresa
+        description: "Name of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: cnpj
+        description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
+        data_tests:
+          - not_null
+      - name: tipo_de_instituicao
+        description: "The type of institution that the company is"
+      - name: tipo_de_instituicao
+        description: "The type of institution that the company is"
+        data_tests:
+          - not_null
+      - name: autorizada_bcb
+        description: "Boolean representation if the company was authorized by the BCB or not"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Sim', 'Não' ]
+      - name: tipo_participacao_pix
+        description: "Type of participation the company has in the PIX"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Facultativa', 'Obrigatória' ]
+      - name: mod_participacao_pix
+        description: "The type of the company within the PIX"
+        data_tests:
+          - not_null
+      - name: status_producao
+        description: "Status of production"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Ativo em operação plena', 'Ativo em operação restrita' ]
+      - name: inic_transacao_pagamento
+        description: "If the company has started transactions"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Sim', 'Não' ]
+      - name: facilitador_saque_troco
+        description: "Can the company facilitate withdrawals or change"
+
+  - name: fato_contato_final
+    description: '{{ doc("fato_contato_final") }}'
+    columns:
+      - name: id_contato
+        description: "Unique Identifier of the contact made with a given client"
+        data_tests:
+          - unique
+          - not_null
+      - name: data_contato
+        description: "Date of the contact with the client"
+        data_tests:
+          - not_null
+      - name: etapa_funil
+        description: "Current funnel stage the client is at"
+        data_tests:
+          - not_null
+      - name: canal
+        description: "How the sales contact was made"
+        data_tests:
+          - not_null
+      - name: responsavel
+        description: "Person responsible for the contact"
+        data_tests:
+          - not_null
+      - name: id_cliente
+        description: "Identifier of the contacted client"
+        data_tests:
+          - not_null
+      - name: nome_cliente
+        description: "Name of the contacted client"
+        data_tests:
+          - not_null
+      - name: email
+        description: "Email of the contacted client"
+        data_tests:
+          - not_null
+      - name: cargo
+        description: "Job Position of the client in the corresponding company"
+        data_tests:
+          - not_null
+      - name: nome_empresa
+        description: "Name of the company the contacted client works"
+        data_tests:
+          - not_null
+      - name: estado
+        description: "State where the company is located"
+        data_tests:
+          - not_null
+      - name: cidade
+        description: "City where the company is located"
+        data_tests:
+          - not_null
+      - name: total_contatos_cliente
+        description: "Total contacts made with the client"
+        data_tests:
+          - not_null

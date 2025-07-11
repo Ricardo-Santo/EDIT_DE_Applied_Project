@@ -2,7 +2,7 @@
 
 ## Staging Tables
 
-For the staging tables we started with removing null rows, and to change data types into matching formats, because of the existing relationships between tables.
+For the staging tables we started with removing null rows, standardizing data types across all models (especially for joins), renamed columns for consistency and prepared the base for relationships in later layers.
 
 ### dim_cliente
 
@@ -23,3 +23,51 @@ For this table we changed the data types of ``id_contato``, ``id_cliente`` and `
 ---
 
 ## Intermediate Tables
+
+In the intermediate layer, we focused on enriching and joining the staging models to produce reusable, logic-ready datasets that could be leveraged by multiple marts.
+
+### int__cliente_empresa
+
+Joined ``stg__dim_cliente`` with ``stg__dim_empresa`` to bring company metadata into the client dimension. Allows filtering and segmenting clients by company-level attributes (like location or status). Serves as the base for ``dim_clientes_final``.
+
+### int__empresa_pix
+
+Joined ``stg__dim_empresa`` with ``stg__dim_pix`` using the cleaned cnpj key. Produces a unified view of companies with their PIX participation data. Useful for regulatory insights and PIX adoption analytics.
+
+### int__empresa_geolocation
+
+Enriched ``stg__dim_empresa`` with geolocation data (latitude and longitude) by joining with a seed file based on state(**estado**) geolocation. Enables spatial analysis for mapping and clustering companies. Acts as a bridge for geospatial enrichment in downstream models.
+
+### int__fato_contato_enriched
+
+Combined ``stg__fato_contato`` with client (``stg__dim_cliente``) and company (``stg__dim_empresa``) information. Resulting dataset includes full context on each contact: who was contacted, by whom, for what company, and where. Prepared for conversion analysis and segmentation logic.
+
+---
+
+## Seeds Table
+
+We use seed files to enhance external context that’s not available in source systems.
+
+### geo_location_data (CSV)
+
+Contains geolocation metadata: state acronym (**state**), state name (**name**), state latitude (**lat**), state longitude (**lon**). Loaded into DBT via ``dbt seed`` and used in ``int__empresa_geolocation``. Assists in mapping companies to their geographic locations for regional analysis and visualization.
+
+---
+
+## Marts Tables
+
+The marts layer represents our final, business-ready datasets for analytics, dashboards, and reporting.
+
+### dim_clientes_final
+
+Combines ``int__cliente_empresa`` with ``int__empresa_geolocation``. Adds geographic attributes to the client dimension. Enables segmentation by region and company profile.
+
+### empresa_pix_analysis
+
+Filters ``int__empresa_pix`` to only include companies where **autorizada_bcb = 'Sim'**. Used for reports on regulatory compliance and active participation in the PIX ecosystem.
+
+### fato_contato_final
+
+Based on ``int__fato_contato_enriched``. Adds an aggregated metric **total_contatos_cliente** via a window function, counting all contact events per client. Useful for funnel tracking, sales team performance, and lead prioritization.
+
+---

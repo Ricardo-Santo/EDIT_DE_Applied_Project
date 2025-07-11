@@ -24,7 +24,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 seeds:
   dbt_transform:
-    geolocation_data:
+    +schema: seed_data
+    geo_location_data:
       +column_types:
           state: varchar(2)
           name: varchar(32)
@@ -43,3 +44,9 @@ models:
     staging:
       +materialized: view
       +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
