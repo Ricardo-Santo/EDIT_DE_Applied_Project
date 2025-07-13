@@ -1,68 +1,84 @@
 # RegTech ETL Pipeline
 
-A complete data engineering project that extracts, transforms, and loads IBM stock market and financial data using Python. It integrates with a PostgreSQL database and supports dbt for transformation and Power BI for visualization.
+A complete data engineering project that extracts, transforms, and loads data from a SaaS solution of a Regulatory Technologic solution using Python and other open source software. It integrates with a PostgreSQL database and supports dbt for transformation and Streamlit for visualization.
+
+**Developed by:**
+
+Ricardo Espírito Santo
+
+Rodolfo Fernandes
+
+# ANALYTICS ENGINEERING PROJECT
+
+This project demonstrates the Data Engineering workflow using dbt (data build tool) for data transformation within an ELT pipeline. The data is extracted from a cloud using an API and then loaded into a PostgreSQL database with storage in the render.com cloud and modeled to support stakeholder-driven decision-making — specifically tailored to answer key business questions from the CEO of the RegTech company.
 
 ---
 
 ## Project Overview
 
-This project automates the ETL pipeline for JVA stock data and company financials using the [Alpha Vantage API](https://www.alphavantage.co/). It stores the processed data in a PostgreSQL database and prepares it for analysis and modeling with [dbt](https://www.getdbt.com/).
+The goal of this project is to simulate a real-world approach: delivering clean, modeled data to support business KPIs. Using dbt, we transform client data into actionable insights, helping stakeholders understand performance trends and operational metrics.
 
 ---
 
-### Project Structure
+## Project Structure
 
-Projeto_(etl_jva)/
-│
-├── data/                       # Raw and processed CSVs
-│   └── processed/
-├── dbt_jva/                    # dbt project folder
-├── src/                        # Python scripts
-│   ├── dashboard_jva.py
-│   ├── Extract.py
-│   ├── Transform.py
-│   └── Load.py
-├── requirements.txt            # Python dependencies
-├── dockerfile                  # Containerized ETL pipeline
-└── README.md
+```text
+RegTech/
+├── data/
+|   ├── dim_cliente.csv
+|   ├── dim_empresa.csv
+|   ├── dim_pix.csv
+|   └── fato_contato.csv        
+|
+├── src/
+|   ├── app.py
+|   ├── Extract.py
+|   ├── Load.py
+|   └── Transform.py
+|
+└── dbt_transform/
+    ├── models/
+    │   ├── staging/
+    │   │   ├── stg__dim_cliente.sql
+    │   │   ├── stg__dim_empresa.sql
+    │   │   ├── stg__dim_pix.sql
+    │   │   └── stg__fato_contato.sql
+    │   ├── intermediate/
+    │   │   ├── int__cliente_empresa.sql
+    │   │   ├── int__empresa_geolocation.sql
+    │   │   ├── int__empresa_pix.sql
+    │   │   └── int__fato_contato_enriched.sql
+    │   └── marts/
+    │       ├── dim_clientes_final.sql
+    │       ├── empresa_pix_analysis.sql
+    │       └── fato_contato_final.sql
+    └── seeds/
+```
 
 ---
-
 ### Technologies Used
 
-- **Python 3.12**
-- **Pandas** for data manipulation
-- **SQLAlchemy** for database operations
-- **PostgreSQL** hosted on [Render](https://render.com/)
-- **Docker** for containerization
+- **Python 3.12** to help prepare data for visualization
+- **PostgreSQL** hosted locally
 - **dbt** for transformations and models
 - **Streamlit** for data visualization
-
 ---
 
-### How it works
+### ELT Pipeline
 
-1. **Extract**: Collects daily stock prices and company overview for JVA using Alpha Vantage API.
-2. **Transform**: Creates star schema tables (`dim_empresa`, `dim_indicador`, `dim_tempo`, `fact_cotacoes`, `fact_indicadores`).
-3. **Load**: Inserts the transformed data into a PostgreSQL database.
-4. **Model** (optional): dbt can be used to create additional models (e.g., average monthly price).
-5. **Visualize** (optional): Dashboards can be created in Power BI.
-
+1. **Extract**: Data that is...
+2. **Load**: ...
+3. **Transform**: Using dbt, raw tables are cleaned, standardized, and transformed into analytics-ready models.
+These models are organized by layers:
+Staging models – Rename, cast, and clean raw source data
+Intermediate models – ...
+Mart models – Final business-focused tables used to answer stakeholder questions and KPIs ...
+4. **Visualize** (optional): Use Streamlit to create an interactive dashboard for exploring key metrics and trends, such as most popular films, top-paying customers, or rental activity over time.
 ---
-
-### Run with Docker
-
-```bash
-# Build the Docker image
-docker build -t etl_jva .
-
-# Run the ETL pipeline
-docker run --rm etl_jva
-```
 
 ### Run the dashboard
 
 ```bash
 # Run dashboard visualization
-streamlit run src/dashboard_jva.py
+streamlit run src/app.py
 ```
