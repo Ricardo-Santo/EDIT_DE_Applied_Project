@@ -8,7 +8,7 @@ Ricardo Espírito Santo
 
 Rodolfo Fernandes
 
-# ANALYTICS ENGINEERING PROJECT
+## ANALYTICS ENGINEERING PROJECT
 
 This project demonstrates the Data Engineering workflow using dbt (data build tool) for data transformation within an ELT pipeline. The data is extracted from a cloud using an API and then loaded into a PostgreSQL database with storage in the render.com cloud and modeled to support stakeholder-driven decision-making — specifically tailored to answer key business questions from the CEO of the RegTech company.
 
@@ -56,12 +56,14 @@ RegTech/
 ```
 
 ---
+
 ### Technologies Used
 
 - **Python 3.12** to help prepare data for visualization
 - **PostgreSQL** hosted locally
 - **dbt** for transformations and models
 - **Streamlit** for data visualization
+
 ---
 
 ### ELT Pipeline
@@ -74,6 +76,7 @@ Staging models – Rename, cast, and clean raw source data
 Intermediate models – ...
 Mart models – Final business-focused tables used to answer stakeholder questions and KPIs ...
 4. **Visualize** (optional): Use Streamlit to create an interactive dashboard for exploring key metrics and trends, such as most popular films, top-paying customers, or rental activity over time.
+
 ---
 
 ### Run the dashboard

@@ -11,10 +11,13 @@ models:
         description: "Name of the contacted cliente"
         data_tests:
           - not_null
+          - dbt_utils.not_empty_string
       - name: email
         description: "Email of the contacted cliente"
         data_tests:
           - not_null
+          - dbt_utils.expression_is_true:
+              expression: "LIKE '%@%'"
       - name: cargo
         description: "Position of the of the contacted cliente in the corresponding company"
         data_tests:
@@ -31,6 +34,8 @@ models:
         description: "State where the company is located"
         data_tests:
           - not_null
+          - accepted_values:
+              values: ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO']
       - name: cidade
         description: "City where the company is located"
         data_tests:
@@ -47,10 +52,16 @@ models:
         description: "Latitude of the State the company's seeded"
         data_tests:
           - not_null
+          - dbt_utils.accepted_range:
+              min_value: -35
+              max_value: 5
       - name: lon
         description: "Longitude of the State the company's seeded"
         data_tests:
           - not_null
+          - dbt_utils.accepted_range:
+              min_value: -75
+              max_value: -30
 
   - name: empresa_pix_analysis
     description: '{{ doc("empresa_pix_analysis") }}'
@@ -141,6 +152,8 @@ models:
         description: "Email of the contacted client"
         data_tests:
           - not_null
+          - dbt_utils.expression_is_true:
+              expression: "LIKE '%@%'"
       - name: cargo
         description: "Job Position of the client in the corresponding company"
         data_tests:
@@ -161,3 +174,6 @@ models:
         description: "Total contacts made with the client"
         data_tests:
           - not_null
+          - dbt_utils.accepted_range:
+              min_value: 1
+              max_value: 10000

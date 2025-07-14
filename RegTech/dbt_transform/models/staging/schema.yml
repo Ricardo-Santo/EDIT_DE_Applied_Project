@@ -1,5 +1,8 @@
 models:
   - name: stg__dim_cliente
+    data_tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: source('dbt_transform', 'dim_cliente')
     description: '{{ doc("stg__dim_cliente") }}'
     columns:
       - name: id_cliente
@@ -15,10 +18,13 @@ models:
         description: "Name of the contacted client"
         data_tests:
           - not_null
+          - dbt_utils.not_empty_string
       - name: email
         description: "Email of the contacted client"
         data_tests:
           - not_null
+          - dbt_utils.expression_is_true:
+              expression: "LIKE '%@%'"
       - name: cargo
         description: "Job Position of the client in the corresponding company"
         data_tests:
@@ -26,6 +32,9 @@ models:
 
   - name: stg__dim_empresa
     description: '{{ doc("stg__dim_empresa") }}'
+    data_tests:
+      - dbt_utils.fewer_rows_than:
+          compare_model: source('dbt_transform', 'dim_empresa')
     columns:
       - name: id_empresa
         description: "The primary key for the company dim table"
@@ -34,21 +43,38 @@ models:
           - not_null
       - name: cnpj
         description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
+        data_tests:
+          - dbt_utils.not_empty_string
       - name: nome_empresa
         description: "Name of the company"
+        data_tests:
+          - not_null
+          - dbt_utils.not_empty_string
       - name: estado
         description: "State where the company is located"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO']
       - name: cidade
         description: "City where the company is located"
       - name: pais
         description: "Country where the company is located"
+        data_tests:
+          - accepted_values:
+              values: ['Brasil']
       - name: site
         description: "URL of the company's website"
       - name: situacao
         description: "Describes if the company is authorized to carry out it's activity"
+        data_tests:
+          - not_null
 
   - name: stg__dim_pix
     description: '{{ doc("stg__dim_pix") }}'
+    data_tests:
+      - dbt_utils.fewer_rows_than:
+          compare_model: source('dbt_transform', 'dim_pix')
     columns:
       - name: nome_reduzido
         description: "Name of the company"
@@ -57,10 +83,13 @@ models:
           - not_null
       - name: ispb
         description: "Bank code ID"
+        data_tests:
+          - not_null
       - name: cnpj
         description: "Cadastro Nacional de Pessoas Jurídicas, the company's registry id"
         data_tests:
           - not_null
+          - dbt_utils.not_empty_string
           - relationships:
               to: ref('stg__dim_empresa')
               field: cnpj
@@ -103,6 +132,9 @@ models:
 
   - name: stg__fato_contato
     description: '{{ doc("stg__dim_pix") }}'
+    data_tests:
+    - dbt_utils.fewer_rows_than:
+          compare_model: source('dbt_transform', 'fato_contato')
     columns:
       - name: id_contato
         description: "The primary key for the contact fact table"
