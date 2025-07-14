@@ -4,6 +4,10 @@ sources:
     schema: public
     tables:
       - name: dim_cliente
+        description: '{{ doc("dim_cliente") }}'
       - name: dim_empresa
+        description: '{{ doc("dim_empresa") }}'
       - name: dim_pix
+        description: '{{ doc("dim_pix") }}'
       - name: fato_contato
+        description: '{{ doc("fato_contato") }}'
