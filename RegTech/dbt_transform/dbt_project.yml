@@ -50,3 +50,10 @@ models:
     marts:
       +materialized: table
       +schema: marts
+
+tests:
+  dbt_transform:
+    tests:
+      consistency:
+        +materialized: view
+        +schema: tests

@@ -25,34 +25,48 @@ The goal of this project is to simulate a real-world approach: delivering clean,
 ```text
 RegTech/
 ├── data/
-|   ├── dim_cliente.csv
-|   ├── dim_empresa.csv
-|   ├── dim_pix.csv
-|   └── fato_contato.csv        
-|
+│   ├── dim_cliente.csv <-- generated uppon running the Extract.py script from the source DB
+│   ├── dim_empresa.csv <-- generated uppon running the Extract.py script from the source DB
+│   ├── dim_pix.csv <-- generated uppon running the Extract.py script from the source DB
+│   └── fato_contato.csv <-- generated uppon running the Extract.py script from the source DB
 ├── src/
-|   ├── app.py
-|   ├── Extract.py
-|   ├── Load.py
-|   └── Transform.py
-|
-└── dbt_transform/
-    ├── models/
-    │   ├── staging/
-    │   │   ├── stg__dim_cliente.sql
-    │   │   ├── stg__dim_empresa.sql
-    │   │   ├── stg__dim_pix.sql
-    │   │   └── stg__fato_contato.sql
-    │   ├── intermediate/
-    │   │   ├── int__cliente_empresa.sql
-    │   │   ├── int__empresa_geolocation.sql
-    │   │   ├── int__empresa_pix.sql
-    │   │   └── int__fato_contato_enriched.sql
-    │   └── marts/
-    │       ├── dim_clientes_final.sql
-    │       ├── empresa_pix_analysis.sql
-    │       └── fato_contato_final.sql
-    └── seeds/
+│   ├── app.py <-- produce the dashboards by streamlit with relevant KPIs
+│   ├── Extract.py <-- access the google cloud DB source files via API that is authenticate by credentials.json
+│   ├── Load.py <-- Uploads the csv files on the data folder to the postgresql data base hosted on render cloud
+│   └── Transform.py <-- apply transformation by dbt on a layering model to the data warehouse
+├── dbt_transform/
+│   ├── models/
+│   │   ├── staging/
+│   │   │   ├── stg__dim_cliente.sql
+│   │   │   ├── stg__dim_empresa.sql
+│   │   │   ├── stg__dim_pix.sql
+│   │   │   └── stg__fato_contato.sql
+│   │   ├── intermediate/
+│   │   │   ├── int__cliente_empresa.sql
+│   │   │   ├── int__empresa_geolocation.sql
+│   │   │   ├── int__empresa_pix.sql
+│   │   │   └── int__fato_contato_enriched.sql
+│   │   └── marts/
+│   │       ├── dim_clientes_final.sql
+│   │       ├── empresa_pix_analysis.sql
+│   │       └── fato_contato_final.sql
+│   ├── seeds/
+│   │   └── geo_location_data.csv
+│   └── tests/
+│       ├── consistency/
+│       │   ├── test_client_count_consistency.sql
+│       │   ├── test_contact_enrichment_consistency.sql
+│       │   ├── test_empresa_count_consistency.sql
+│       │   └── test_total_contatos_calculation.sql
+│       └── generic/
+│           ├── test_total_contatos_calculation.sql
+│           ├── test_email_format.sql
+│           ├── test_geolocation_bounds.sql
+│           └── test_pix_cnpj_consistency.sql
+├── .env <-- Variables needed to access postgress DB and google drive sheet ID
+├── credentials.json <-- API credentials to access the Google Cloud drive with the source data
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -68,14 +82,14 @@ RegTech/
 
 ### ELT Pipeline
 
-1. **Extract**: Data that is...
-2. **Load**: ...
+1. **Extract**: Data that is in Google Cloud platform accessed via API
+2. **Load**: Upload data into postgreSQL DB in Render cloud DataWarehouse
 3. **Transform**: Using dbt, raw tables are cleaned, standardized, and transformed into analytics-ready models.
 These models are organized by layers:
 Staging models – Rename, cast, and clean raw source data
-Intermediate models – ...
-Mart models – Final business-focused tables used to answer stakeholder questions and KPIs ...
-4. **Visualize** (optional): Use Streamlit to create an interactive dashboard for exploring key metrics and trends, such as most popular films, top-paying customers, or rental activity over time.
+Intermediate models – Builds upon the staging layer by performing more complex transformations and aggregations. 
+Mart models – Final business-focused tables used to answer stakeholder questions and KPIs .
+4. **Visualize** (optional to the pipeline): Use Streamlit to create an interactive dashboard for exploring key metrics and trends.
 
 ---
 
@@ -84,4 +98,11 @@ Mart models – Final business-focused tables used to answer stakeholder questio
 ```bash
 # Run dashboard visualization
 streamlit run src/app.py
+```
+### Run the documentation
+
+```bash
+# Run dashboard visualization
+dbt docs generate
+dbt docs serve
 ```
